@@ -1,0 +1,1001 @@
+transaction_id,timestamp,amount,merchant_category,transaction_location,device_type,payment_type,customer_age,days_since_last_transaction,transaction_frequency,average_transaction_amount,is_weekend,is_night,distance_from_home,previous_fraud_flag,is_fraud
+1,15796,494.49,Electronics,San Francisco,Web,Bank Transfer,30,1,6,240.62,1,0,25.79,1,0
+2,861,754.88,Dining,Chicago,Web,Debit Card,22,11,5,321.68,1,0,49.15,0,0
+3,76821,103.81,Grocery,Houston,Mobile,Credit Card,42,16,2,287.48,0,1,97.55,1,0
+4,54887,536.94,Entertainment,Los Angeles,Mobile,Credit Card,37,9,15,376.47,0,0,33.32,0,0
+5,6266,379.44,Travel,Seattle,Mobile,Credit Card,35,1,16,154.29,0,1,59.5,1,0
+6,82387,457.54,Entertainment,Chicago,Mobile,Debit Card,64,5,19,291.18,1,0,9.02,1,0
+7,37195,604.35,Clothing,San Francisco,Mobile,Credit Card,35,7,9,62.31,1,0,60.6,0,0
+8,44132,502.79,Electronics,Chicago,In-store,Debit Card,19,28,19,218.56,0,1,8.96,0,0
+9,60264,540.32,Entertainment,New York,Mobile,Credit Card,27,18,7,380.08,0,0,95.92,1,0
+10,16024,486.87,Electronics,New York,Mobile,Credit Card,62,10,4,352.83,1,0,71.57,1,0
+11,41091,409.55,Entertainment,Houston,In-store,Debit Card,67,30,3,495.51,1,1,78.82,0,0
+12,67222,772.11,Grocery,Houston,Mobile,Credit Card,64,24,11,153.39,0,1,70.41,0,0
+13,64821,13.19,Grocery,Los Angeles,Web,Bank Transfer,29,30,1,259.13,1,1,58.97,0,0
+14,770,598.84,Grocery,Seattle,Mobile,Debit Card,64,11,6,178.17,0,0,44.99,1,0
+15,59736,565.94,Grocery,Chicago,Mobile,Debit Card,30,8,11,231.49,0,0,85.84,0,0
+16,62956,716.46,Grocery,New York,Web,Debit Card,67,1,1,431.34,1,0,95.68,0,0
+17,64926,599.43,Grocery,Houston,Web,Bank Transfer,64,7,7,348.42,1,0,49.9,0,0
+18,67970,826.97,Electronics,Seattle,Web,Debit Card,28,25,6,443.57,1,0,93.15,0,0
+19,5312,959.12,Travel,Chicago,Web,Credit Card,36,10,14,117.69,0,1,58.33,0,0
+20,83105,343.18,Entertainment,Houston,Mobile,Credit Card,52,27,2,439.21,1,0,53.84,1,0
+21,53708,228.12,Grocery,Houston,Web,Credit Card,56,20,4,48.69,1,1,45.45,1,1
+22,85306,424.17,Electronics,New York,Web,Debit Card,70,3,11,446.53,0,0,20.93,0,0
+23,28694,288.64,Electronics,New York,In-store,Credit Card,43,9,15,177.96,0,1,0.37,0,0
+24,71933,615.34,Electronics,Houston,Web,Debit Card,63,20,18,171.0,1,0,24.15,1,0
+25,25659,911.94,Travel,San Francisco,Web,Credit Card,31,19,1,265.8,0,0,50.97,0,0
+26,84479,139.98,Entertainment,Houston,In-store,Bank Transfer,62,15,3,471.53,0,1,38.0,1,0
+27,18432,101.69,Travel,Seattle,In-store,Bank Transfer,61,7,3,42.94,0,0,44.85,0,0
+28,2748,256.76,Dining,Houston,Mobile,Bank Transfer,41,3,7,189.07,1,1,98.06,1,1
+29,59151,726.37,Electronics,Los Angeles,In-store,Bank Transfer,58,28,1,431.15,1,0,35.03,1,0
+30,65726,593.37,Dining,Los Angeles,Mobile,Debit Card,18,9,11,210.11,0,0,45.22,0,0
+31,84655,103.11,Clothing,Los Angeles,In-store,Credit Card,68,11,6,115.6,0,1,13.35,1,0
+32,35774,918.83,Grocery,San Francisco,In-store,Bank Transfer,60,28,3,223.9,0,0,4.8,0,1
+33,67436,790.29,Grocery,San Francisco,Mobile,Debit Card,39,13,19,205.07,1,1,77.54,1,0
+34,56887,24.0,Travel,Houston,In-store,Bank Transfer,40,15,2,459.4,0,0,57.07,0,0
+35,66804,651.72,Entertainment,Los Angeles,Mobile,Bank Transfer,36,21,18,385.73,0,0,76.07,0,0
+36,31552,771.48,Dining,San Francisco,In-store,Debit Card,35,17,12,262.46,1,0,14.99,0,0
+37,11395,375.06,Entertainment,New York,Web,Debit Card,29,20,10,494.42,0,0,57.18,1,0
+38,69093,69.85,Travel,Houston,In-store,Credit Card,45,21,5,243.33,1,0,25.36,0,0
+39,3891,78.24,Grocery,Seattle,Mobile,Credit Card,45,20,9,47.95,1,0,22.81,0,0
+40,41607,105.14,Entertainment,Chicago,In-store,Bank Transfer,50,11,2,145.89,1,0,1.15,0,0
+41,80039,840.6,Entertainment,Houston,Mobile,Bank Transfer,36,17,2,229.31,0,1,13.03,1,0
+42,10628,910.78,Grocery,Chicago,Mobile,Credit Card,45,29,6,95.31,0,0,30.93,0,0
+43,8793,123.69,Dining,Los Angeles,Web,Credit Card,69,6,10,474.83,1,0,11.69,1,0
+44,73970,236.67,Grocery,Chicago,Web,Debit Card,66,19,18,388.09,0,0,98.59,1,1
+45,43002,166.35,Entertainment,Los Angeles,Mobile,Credit Card,54,23,12,148.78,1,1,30.86,1,0
+46,76553,187.13,Dining,New York,In-store,Credit Card,43,22,4,303.59,0,1,13.03,0,0
+47,23898,837.65,Dining,Chicago,Mobile,Bank Transfer,52,6,17,366.3,1,0,19.91,0,0
+48,68149,332.81,Grocery,Houston,Mobile,Credit Card,51,8,15,471.81,1,0,58.77,1,0
+49,23484,312.13,Entertainment,Los Angeles,In-store,Bank Transfer,52,0,6,443.18,0,0,6.4,0,0
+50,48556,228.17,Travel,Houston,In-store,Credit Card,57,25,16,267.29,0,1,86.24,0,0
+51,17160,608.29,Entertainment,San Francisco,In-store,Debit Card,33,5,17,391.83,0,0,96.15,1,0
+52,80078,379.93,Electronics,Los Angeles,In-store,Credit Card,55,5,3,289.83,0,1,24.67,1,0
+53,35921,744.51,Clothing,Chicago,Mobile,Credit Card,30,21,10,285.3,1,0,45.01,0,0
+54,67122,206.37,Travel,Los Angeles,Mobile,Credit Card,40,28,5,75.08,1,1,2.21,1,0
+55,69480,788.0,Dining,Houston,Web,Bank Transfer,39,11,14,80.55,0,1,64.07,0,0
+56,19458,604.12,Travel,New York,Mobile,Debit Card,33,21,13,274.18,0,0,41.39,1,0
+57,66558,115.15,Dining,Los Angeles,In-store,Credit Card,45,11,6,149.05,1,0,27.01,0,1
+58,77190,415.09,Dining,Chicago,Web,Bank Transfer,65,9,12,30.1,0,0,20.68,0,0
+59,78954,863.65,Travel,San Francisco,In-store,Debit Card,52,22,8,366.96,0,0,65.4,1,0
+60,52996,923.04,Dining,Seattle,Mobile,Bank Transfer,62,29,5,35.59,0,0,41.62,0,0
+61,40758,466.23,Dining,New York,Web,Bank Transfer,63,25,15,305.73,0,0,17.97,0,0
+62,9693,481.36,Electronics,San Francisco,In-store,Debit Card,25,5,16,278.81,1,0,68.91,1,0
+63,45759,918.54,Entertainment,Los Angeles,Web,Credit Card,61,16,1,485.03,1,1,56.51,0,0
+64,72410,587.48,Entertainment,Houston,Web,Bank Transfer,39,18,16,252.42,0,0,85.87,0,0
+65,71212,33.81,Clothing,Houston,Mobile,Bank Transfer,38,17,5,50.53,1,0,11.75,0,0
+66,65698,912.84,Clothing,Chicago,In-store,Credit Card,43,5,3,284.81,0,1,78.57,1,0
+67,37066,248.98,Electronics,Houston,Web,Credit Card,57,23,15,423.73,0,0,67.35,1,0
+68,32607,578.05,Clothing,New York,Web,Debit Card,38,18,13,498.49,0,0,11.5,1,0
+69,11535,166.35,Travel,Houston,In-store,Debit Card,42,9,16,226.56,1,0,69.48,1,0
+70,40398,34.85,Grocery,Chicago,Web,Debit Card,58,23,11,173.74,1,0,44.15,1,0
+71,1017,312.16,Grocery,Seattle,Web,Credit Card,18,7,2,455.19,1,1,94.5,0,0
+72,55592,780.72,Grocery,Los Angeles,Web,Bank Transfer,23,20,6,111.8,1,1,14.16,0,0
+73,23248,278.31,Electronics,Los Angeles,In-store,Bank Transfer,40,23,6,315.41,1,0,64.28,0,0
+74,24301,220.88,Electronics,Houston,In-store,Debit Card,68,5,14,214.74,0,0,38.2,1,0
+75,74066,213.47,Dining,San Francisco,In-store,Credit Card,40,20,11,39.72,0,1,95.68,0,0
+76,82799,515.66,Grocery,Los Angeles,In-store,Bank Transfer,60,24,8,186.7,1,0,33.0,1,0
+77,9269,975.57,Travel,Seattle,Mobile,Debit Card,60,29,8,147.31,1,1,96.22,0,0
+78,12186,459.53,Clothing,Houston,Web,Bank Transfer,40,6,1,349.32,1,1,90.15,1,0
+79,63705,557.75,Travel,Chicago,In-store,Bank Transfer,49,23,7,475.42,0,1,27.04,0,0
+80,39100,860.77,Clothing,Seattle,Web,Credit Card,47,0,6,148.66,1,0,80.35,0,0
+81,8572,535.53,Grocery,Houston,Web,Credit Card,30,26,8,409.5,0,0,99.56,1,0
+82,38045,185.28,Grocery,Seattle,Mobile,Bank Transfer,60,17,19,46.57,0,0,25.27,0,0
+83,51215,300.3,Grocery,Los Angeles,In-store,Debit Card,35,23,8,278.3,1,1,43.68,0,0
+84,61229,310.63,Electronics,Chicago,In-store,Credit Card,40,27,14,53.86,0,0,52.02,1,0
+85,48985,397.92,Clothing,Houston,Web,Bank Transfer,32,24,18,468.34,0,0,29.49,0,0
+86,40775,427.36,Electronics,New York,In-store,Credit Card,50,19,16,387.85,1,1,1.53,0,0
+87,2569,799.98,Electronics,Chicago,Web,Credit Card,38,11,9,335.82,0,0,22.01,1,0
+88,62593,350.04,Entertainment,New York,Web,Credit Card,56,15,15,415.47,1,0,28.19,1,1
+89,67564,468.76,Travel,Seattle,Mobile,Bank Transfer,40,9,10,330.81,0,0,44.36,1,1
+90,2696,625.35,Travel,San Francisco,Mobile,Debit Card,44,26,16,485.09,1,1,17.11,1,0
+91,48191,378.35,Dining,Chicago,Mobile,Debit Card,62,9,4,362.7,1,0,87.33,1,0
+92,5259,836.73,Electronics,Seattle,Web,Debit Card,61,13,13,463.84,0,1,70.49,0,0
+93,39505,587.87,Clothing,New York,In-store,Credit Card,35,24,5,268.22,1,1,8.52,1,0
+94,33160,294.75,Entertainment,Los Angeles,Mobile,Bank Transfer,41,19,7,76.19,0,1,65.01,1,0
+95,13987,714.35,Entertainment,Los Angeles,In-store,Credit Card,68,9,9,273.53,0,0,65.37,0,1
+96,61859,528.12,Travel,San Francisco,Mobile,Debit Card,64,9,8,80.9,1,0,95.62,0,0
+97,12667,534.92,Electronics,Chicago,Mobile,Debit Card,57,25,16,304.4,0,0,0.3,0,0
+98,38661,481.61,Dining,Chicago,Web,Bank Transfer,68,24,6,251.6,1,1,24.79,0,0
+99,3562,497.51,Electronics,Chicago,Mobile,Credit Card,59,10,16,318.84,0,1,92.78,0,0
+100,26855,765.59,Grocery,Seattle,Mobile,Debit Card,24,22,6,24.82,0,0,93.21,1,1
+101,64506,103.88,Electronics,San Francisco,Web,Bank Transfer,67,1,14,113.52,1,1,72.06,0,0
+102,52252,335.03,Grocery,Chicago,In-store,Credit Card,65,24,1,255.84,0,0,76.58,1,0
+103,22663,76.43,Grocery,Seattle,Mobile,Credit Card,37,19,9,476.24,0,0,9.15,0,0
+104,8393,753.49,Dining,Los Angeles,Web,Debit Card,44,7,13,204.13,0,0,51.39,1,0
+105,30536,273.03,Clothing,New York,Mobile,Debit Card,23,29,19,223.7,0,0,23.16,0,0
+106,78604,897.53,Travel,Seattle,Web,Credit Card,44,22,17,363.05,0,0,18.12,1,0
+107,52257,527.05,Electronics,Los Angeles,In-store,Credit Card,26,28,11,309.82,0,0,81.03,1,0
+108,35223,800.95,Grocery,Los Angeles,In-store,Debit Card,70,30,8,163.48,0,0,13.5,1,0
+109,77374,978.95,Electronics,New York,Web,Credit Card,62,6,5,217.19,0,1,46.87,1,0
+110,79576,839.95,Clothing,Los Angeles,Web,Debit Card,48,7,10,124.5,1,0,93.86,1,0
+111,84652,867.13,Travel,San Francisco,Web,Credit Card,38,0,7,483.69,0,1,18.58,1,0
+112,63336,408.58,Clothing,New York,In-store,Debit Card,43,20,10,82.7,0,1,97.8,1,0
+113,10966,552.17,Travel,Los Angeles,Mobile,Bank Transfer,57,1,4,198.48,1,0,99.43,1,0
+114,24539,254.63,Entertainment,Houston,In-store,Debit Card,65,17,9,32.4,1,1,55.56,1,1
+115,70593,196.92,Travel,Seattle,Web,Debit Card,62,14,14,126.45,1,1,17.01,1,0
+116,8111,506.0,Dining,Los Angeles,Web,Bank Transfer,30,0,2,394.63,0,1,31.61,0,0
+117,79310,595.45,Clothing,San Francisco,In-store,Credit Card,66,4,9,116.56,1,0,42.45,1,0
+118,27267,339.93,Grocery,Chicago,Web,Bank Transfer,40,1,1,58.43,1,0,30.93,1,0
+119,52993,569.87,Entertainment,Los Angeles,In-store,Debit Card,37,19,10,247.74,0,0,28.06,0,0
+120,82949,887.57,Dining,Chicago,Web,Credit Card,54,2,10,24.79,0,0,97.22,1,0
+121,6911,557.16,Electronics,Houston,Mobile,Bank Transfer,70,18,3,60.69,1,0,15.34,1,0
+122,207,721.09,Clothing,Los Angeles,Mobile,Credit Card,45,17,6,407.66,1,1,73.33,0,0
+123,23420,805.51,Grocery,New York,Web,Credit Card,34,28,6,390.31,0,1,0.04,0,0
+124,50637,988.74,Travel,Chicago,In-store,Bank Transfer,45,21,2,459.27,0,0,59.62,1,0
+125,50016,603.59,Grocery,Houston,Mobile,Credit Card,58,17,18,430.17,0,1,91.59,0,0
+126,54269,807.04,Electronics,New York,In-store,Bank Transfer,19,13,2,347.92,0,1,28.79,1,0
+127,18142,962.69,Entertainment,New York,Web,Debit Card,42,29,12,45.12,0,1,18.55,1,0
+128,80357,944.47,Entertainment,New York,In-store,Credit Card,67,23,5,395.77,1,1,65.17,1,0
+129,71911,141.94,Clothing,New York,Mobile,Debit Card,58,7,7,425.85,0,0,71.26,0,1
+130,56045,406.99,Entertainment,Los Angeles,In-store,Debit Card,23,28,16,403.56,0,0,68.8,1,0
+131,67215,324.67,Clothing,Seattle,In-store,Credit Card,28,29,1,264.07,0,0,31.93,1,0
+132,33828,87.84,Clothing,Los Angeles,Web,Bank Transfer,55,11,1,131.79,0,1,25.22,0,0
+133,55821,633.61,Clothing,Los Angeles,Web,Credit Card,23,20,17,425.76,0,1,95.59,1,0
+134,62624,736.17,Travel,Houston,Web,Debit Card,62,9,1,369.04,1,0,92.33,1,0
+135,81735,848.28,Dining,Houston,Mobile,Debit Card,28,22,13,490.77,0,0,45.73,1,0
+136,75451,123.65,Clothing,Seattle,Mobile,Bank Transfer,31,19,9,94.73,1,1,84.62,1,0
+137,22300,876.57,Clothing,Houston,Web,Credit Card,19,16,15,128.32,0,0,45.23,1,0
+138,43586,643.28,Dining,San Francisco,Web,Debit Card,57,10,3,121.66,1,0,42.44,1,0
+139,64045,704.24,Grocery,Seattle,Mobile,Debit Card,20,1,14,400.42,1,1,15.68,0,1
+140,42558,910.71,Clothing,Houston,Mobile,Debit Card,70,25,11,109.72,0,1,42.64,1,0
+141,49081,625.14,Travel,Seattle,Mobile,Bank Transfer,52,25,12,52.0,0,0,53.74,1,0
+142,2694,336.53,Entertainment,Los Angeles,Mobile,Debit Card,50,3,13,499.31,0,1,2.25,0,0
+143,69164,825.28,Entertainment,Los Angeles,Web,Debit Card,41,0,13,31.91,0,0,44.41,1,1
+144,25940,363.7,Electronics,Seattle,Mobile,Credit Card,36,14,1,420.92,0,1,78.14,1,0
+145,48926,35.19,Electronics,San Francisco,Web,Credit Card,35,12,10,195.38,1,1,68.0,0,0
+146,42942,830.82,Entertainment,San Francisco,In-store,Debit Card,66,7,3,423.98,0,0,63.52,0,0
+147,21835,345.85,Entertainment,Seattle,In-store,Debit Card,69,24,4,286.22,0,1,90.96,0,0
+148,18048,774.06,Travel,Houston,Mobile,Credit Card,41,3,16,452.78,1,0,1.8,0,1
+149,26106,363.4,Dining,Chicago,In-store,Bank Transfer,62,9,8,464.57,0,1,55.7,0,0
+150,75767,861.21,Electronics,San Francisco,In-store,Bank Transfer,52,18,16,24.37,1,0,78.73,0,0
+151,15708,220.29,Dining,New York,In-store,Bank Transfer,18,17,17,56.2,0,1,54.13,0,0
+152,21977,974.57,Travel,Los Angeles,Mobile,Bank Transfer,53,4,19,140.17,1,1,32.39,1,0
+153,44263,779.98,Entertainment,Seattle,Mobile,Bank Transfer,42,29,15,341.27,0,0,13.63,1,0
+154,23777,115.12,Clothing,New York,In-store,Bank Transfer,62,18,16,446.37,1,1,88.76,1,0
+155,30081,566.21,Dining,Seattle,Web,Bank Transfer,66,25,15,240.77,1,0,47.08,0,0
+156,66843,985.38,Entertainment,Los Angeles,In-store,Bank Transfer,60,22,2,311.35,0,1,87.81,1,0
+157,61374,471.59,Entertainment,Los Angeles,Mobile,Credit Card,51,26,11,110.48,0,1,58.59,0,1
+158,6777,182.93,Grocery,San Francisco,Mobile,Bank Transfer,42,21,1,406.38,0,0,67.42,1,0
+159,55017,485.29,Dining,San Francisco,Mobile,Bank Transfer,33,15,15,484.32,1,1,80.43,1,0
+160,9475,512.95,Clothing,New York,In-store,Bank Transfer,51,0,19,148.93,1,1,65.92,1,0
+161,58054,741.95,Dining,Seattle,Web,Debit Card,46,11,4,257.52,1,0,39.81,1,0
+162,21960,699.15,Entertainment,Los Angeles,Mobile,Credit Card,36,23,11,61.34,0,1,51.36,0,0
+163,5531,403.15,Clothing,New York,Mobile,Credit Card,40,1,5,288.39,0,0,80.3,0,0
+164,3749,218.81,Travel,Chicago,In-store,Credit Card,36,20,3,261.34,1,0,37.37,1,0
+165,13546,645.41,Grocery,New York,Web,Bank Transfer,42,24,13,89.33,0,0,38.81,0,0
+166,66200,422.28,Entertainment,Houston,In-store,Bank Transfer,33,7,10,232.19,1,1,9.57,0,1
+167,34767,133.14,Electronics,New York,Mobile,Debit Card,68,17,11,180.37,0,1,91.46,1,0
+168,73531,900.67,Electronics,Houston,Web,Credit Card,26,24,18,270.48,0,0,9.1,0,0
+169,61088,691.53,Grocery,Houston,Web,Bank Transfer,18,15,2,301.11,1,1,64.82,0,1
+170,68841,683.5,Travel,Houston,Mobile,Credit Card,59,4,7,24.08,0,0,41.32,0,0
+171,54385,822.76,Entertainment,Chicago,Web,Debit Card,36,25,9,385.28,0,1,40.56,0,0
+172,51006,530.13,Dining,New York,Web,Debit Card,50,29,10,362.25,0,0,67.96,1,0
+173,46577,815.24,Grocery,New York,In-store,Debit Card,51,21,18,195.82,0,0,6.71,1,0
+174,39354,498.59,Travel,Chicago,Mobile,Credit Card,33,12,7,45.41,0,1,59.37,0,0
+175,62004,68.11,Dining,Los Angeles,Mobile,Bank Transfer,61,18,7,382.37,1,0,77.2,1,0
+176,83212,405.84,Electronics,San Francisco,Mobile,Bank Transfer,57,28,3,478.48,0,0,82.82,1,0
+177,52734,497.97,Electronics,New York,Mobile,Debit Card,35,2,12,135.27,1,1,17.05,1,0
+178,65319,720.48,Dining,San Francisco,Mobile,Bank Transfer,51,25,7,175.29,0,0,89.74,0,0
+179,23665,107.47,Grocery,Seattle,Web,Debit Card,42,7,17,108.23,0,0,65.61,0,0
+180,67173,140.88,Electronics,Seattle,In-store,Credit Card,62,26,1,296.93,1,1,88.19,1,0
+181,85617,264.42,Entertainment,Chicago,Mobile,Debit Card,23,25,5,94.32,1,0,48.53,1,0
+182,26737,267.23,Clothing,Seattle,In-store,Credit Card,38,25,16,190.97,0,0,54.2,0,0
+183,855,732.45,Dining,Seattle,In-store,Debit Card,23,30,15,354.57,0,0,91.9,1,0
+184,38624,251.48,Dining,Los Angeles,Web,Bank Transfer,49,11,2,288.86,1,0,89.99,0,0
+185,7393,633.46,Electronics,Los Angeles,Mobile,Bank Transfer,58,1,9,205.5,1,0,44.82,1,0
+186,55681,494.78,Grocery,Los Angeles,Web,Debit Card,65,10,7,221.72,1,0,27.44,0,0
+187,46718,573.72,Entertainment,Seattle,Mobile,Bank Transfer,60,11,4,289.81,1,0,39.32,0,1
+188,50860,838.27,Grocery,Chicago,Web,Bank Transfer,56,27,18,22.82,0,0,38.78,0,0
+189,26310,404.98,Travel,Houston,In-store,Bank Transfer,48,17,4,57.68,0,1,28.69,0,0
+190,63735,771.14,Travel,Houston,Mobile,Credit Card,59,12,13,443.0,0,0,26.86,1,0
+191,70468,422.61,Clothing,San Francisco,In-store,Bank Transfer,27,4,1,57.38,0,0,86.11,0,1
+192,52663,354.52,Electronics,Houston,In-store,Credit Card,47,21,3,359.27,0,1,6.99,1,0
+193,12689,958.67,Electronics,Houston,Web,Debit Card,69,11,16,461.62,1,0,67.76,0,0
+194,25343,185.19,Electronics,Los Angeles,Mobile,Bank Transfer,35,1,4,149.93,1,0,17.28,0,0
+195,37158,91.25,Clothing,Los Angeles,In-store,Bank Transfer,41,30,16,197.84,1,0,34.45,1,0
+196,67864,771.21,Travel,Seattle,Web,Bank Transfer,69,4,19,293.08,0,0,6.15,1,1
+197,52084,69.18,Grocery,San Francisco,Mobile,Debit Card,26,6,1,443.22,1,0,27.0,1,0
+198,65734,837.24,Clothing,New York,Mobile,Credit Card,48,25,5,472.11,0,0,76.84,0,0
+199,34699,437.76,Clothing,San Francisco,In-store,Credit Card,32,25,19,374.99,0,1,88.5,0,0
+200,80624,915.6,Grocery,San Francisco,Mobile,Bank Transfer,21,23,11,61.58,0,1,22.15,1,0
+201,22672,721.81,Electronics,Chicago,In-store,Debit Card,57,11,13,341.19,1,1,46.35,0,0
+202,25185,610.79,Entertainment,Seattle,Mobile,Debit Card,26,15,5,216.95,0,1,47.03,1,0
+203,42108,949.36,Grocery,Chicago,Web,Debit Card,62,22,4,245.94,0,1,87.36,0,0
+204,86203,397.25,Travel,San Francisco,In-store,Debit Card,26,7,4,43.59,1,0,76.28,0,0
+205,51664,954.13,Dining,San Francisco,In-store,Debit Card,43,29,4,111.71,0,0,51.31,0,0
+206,15709,135.87,Dining,San Francisco,Mobile,Credit Card,21,27,4,399.45,1,0,67.07,1,0
+207,49812,484.27,Clothing,Houston,Mobile,Credit Card,34,8,18,237.9,0,0,84.74,0,0
+208,2812,270.64,Dining,Chicago,In-store,Credit Card,33,14,18,164.8,1,0,0.95,1,0
+209,56251,540.3,Entertainment,San Francisco,Mobile,Bank Transfer,32,4,16,204.33,0,1,40.29,1,0
+210,72083,162.85,Electronics,Los Angeles,Web,Debit Card,52,12,9,430.11,0,1,90.72,0,0
+211,34755,841.69,Travel,Seattle,Mobile,Bank Transfer,69,4,18,379.52,1,0,74.03,1,0
+212,11412,846.56,Entertainment,Seattle,Web,Debit Card,22,10,2,150.71,0,0,54.28,1,0
+213,2912,955.28,Travel,Los Angeles,Web,Credit Card,22,9,4,76.4,1,0,52.96,0,0
+214,67271,155.52,Travel,Seattle,Web,Bank Transfer,37,19,12,140.96,0,1,34.78,1,0
+215,83764,623.71,Electronics,Houston,Web,Credit Card,32,12,7,461.96,1,1,52.05,1,0
+216,8681,474.76,Clothing,Houston,Web,Debit Card,35,8,15,299.16,0,0,65.54,0,0
+217,84897,345.04,Dining,New York,Mobile,Debit Card,64,20,7,276.07,0,1,41.84,0,1
+218,83880,352.19,Electronics,New York,Web,Debit Card,19,13,17,306.27,0,0,71.42,0,0
+219,71296,413.38,Entertainment,New York,Mobile,Credit Card,46,17,16,195.69,1,1,86.12,1,1
+220,11112,705.22,Clothing,Seattle,Web,Debit Card,30,14,19,407.41,1,1,15.47,1,0
+221,37505,598.69,Entertainment,Houston,In-store,Credit Card,21,9,9,271.18,1,0,45.15,0,0
+222,1803,460.22,Clothing,Houston,Web,Bank Transfer,59,23,14,76.04,1,1,40.8,1,0
+223,8156,76.86,Entertainment,Houston,In-store,Debit Card,62,30,17,81.95,1,1,68.75,0,0
+224,73657,78.69,Electronics,Los Angeles,Web,Debit Card,27,6,5,277.69,0,0,24.99,0,0
+225,39385,3.34,Clothing,Houston,Web,Debit Card,48,7,2,469.55,0,1,64.03,0,0
+226,47255,967.73,Clothing,Los Angeles,Web,Bank Transfer,58,27,16,168.01,0,0,87.75,1,0
+227,21919,6.25,Travel,New York,In-store,Debit Card,25,2,14,437.38,0,1,41.81,1,0
+228,85982,103.99,Travel,New York,In-store,Credit Card,20,30,14,386.77,0,0,91.1,0,0
+229,60714,315.28,Grocery,Seattle,Web,Credit Card,65,14,1,138.95,1,0,99.32,0,0
+230,30307,807.62,Entertainment,New York,Mobile,Debit Card,63,15,3,37.44,0,1,10.61,1,0
+231,16647,962.14,Travel,Seattle,Web,Debit Card,26,3,7,68.89,1,1,23.31,0,0
+232,46844,790.22,Grocery,San Francisco,In-store,Bank Transfer,47,20,15,369.68,0,0,95.04,1,0
+233,16372,690.87,Travel,San Francisco,Web,Bank Transfer,70,5,19,115.84,1,1,95.83,0,0
+234,77372,521.78,Entertainment,Chicago,In-store,Bank Transfer,28,0,2,198.21,1,1,9.77,0,0
+235,2050,87.62,Clothing,Seattle,In-store,Debit Card,52,3,19,260.82,1,1,1.5,1,0
+236,31617,958.21,Dining,Chicago,In-store,Bank Transfer,54,10,9,368.22,0,0,16.11,1,0
+237,20933,758.63,Entertainment,Chicago,Web,Bank Transfer,59,11,19,74.35,0,0,99.6,1,0
+238,29856,639.31,Electronics,San Francisco,In-store,Credit Card,30,25,5,215.06,0,0,18.0,1,0
+239,61435,759.28,Travel,Seattle,In-store,Bank Transfer,53,28,18,252.83,0,1,50.25,1,0
+240,72695,724.38,Travel,San Francisco,Web,Credit Card,30,4,16,279.6,1,1,84.84,0,0
+241,43017,637.59,Clothing,Chicago,In-store,Credit Card,29,22,4,412.81,1,0,2.04,0,0
+242,7401,980.6,Electronics,Seattle,Web,Bank Transfer,54,28,12,102.41,1,0,60.45,1,0
+243,42643,903.46,Clothing,Chicago,In-store,Credit Card,27,20,7,407.76,1,1,27.7,1,0
+244,15152,647.02,Electronics,Houston,Mobile,Debit Card,26,15,14,352.58,0,1,86.23,0,0
+245,51408,693.48,Dining,Seattle,Mobile,Debit Card,69,12,12,286.82,1,1,28.35,0,0
+246,66691,52.54,Travel,Seattle,In-store,Bank Transfer,24,12,3,355.77,0,1,68.68,1,0
+247,4500,670.25,Travel,Chicago,Mobile,Debit Card,19,16,5,217.77,1,0,67.42,1,1
+248,6296,45.12,Dining,Houston,Web,Credit Card,40,26,17,86.43,1,1,22.15,0,0
+249,59041,588.68,Grocery,Los Angeles,Mobile,Debit Card,56,6,10,339.57,1,1,3.48,1,0
+250,12184,999.35,Clothing,San Francisco,In-store,Bank Transfer,57,7,10,271.84,0,0,40.92,0,0
+251,29300,556.25,Dining,Chicago,In-store,Bank Transfer,56,12,11,326.9,0,0,28.92,0,0
+252,12875,473.74,Clothing,Seattle,Web,Credit Card,38,22,17,182.24,1,1,80.9,1,0
+253,32712,313.54,Entertainment,San Francisco,In-store,Bank Transfer,40,26,5,455.3,1,0,80.04,0,0
+254,5540,121.4,Travel,San Francisco,Web,Debit Card,46,15,13,301.94,1,1,45.7,0,0
+255,53352,731.29,Clothing,San Francisco,Mobile,Bank Transfer,31,29,10,60.99,0,1,60.65,0,0
+256,61268,193.41,Electronics,Los Angeles,Mobile,Credit Card,43,28,9,235.91,0,0,60.43,1,0
+257,48355,116.17,Clothing,New York,Web,Bank Transfer,68,30,17,383.05,0,0,82.72,0,0
+258,2558,422.34,Entertainment,Chicago,Web,Debit Card,22,3,1,401.18,1,1,42.5,1,0
+259,38361,795.55,Travel,New York,In-store,Credit Card,48,7,4,257.41,0,0,27.54,0,1
+260,82019,745.32,Dining,New York,Mobile,Debit Card,42,15,4,449.48,1,1,26.5,0,0
+261,2201,55.83,Entertainment,New York,Web,Credit Card,48,30,18,148.48,0,1,53.62,0,0
+262,68498,455.69,Travel,San Francisco,Mobile,Bank Transfer,67,20,9,217.09,1,1,44.91,0,0
+263,46976,522.91,Clothing,Houston,Web,Credit Card,37,9,18,451.33,1,0,44.01,0,0
+264,21358,644.9,Grocery,San Francisco,Mobile,Credit Card,61,24,14,450.2,0,1,9.11,1,0
+265,77506,650.52,Grocery,San Francisco,In-store,Bank Transfer,34,11,15,349.14,1,1,71.86,1,0
+266,2870,365.33,Electronics,Seattle,Mobile,Debit Card,62,11,6,432.31,1,1,21.37,0,0
+267,61136,561.12,Travel,Seattle,Mobile,Bank Transfer,19,25,10,62.61,1,0,19.7,1,0
+268,50109,481.58,Grocery,New York,Mobile,Credit Card,42,4,15,435.2,0,1,41.28,1,0
+269,38468,885.11,Dining,San Francisco,Mobile,Bank Transfer,30,15,4,173.9,1,1,22.78,0,0
+270,23329,530.73,Travel,New York,Mobile,Credit Card,56,0,18,105.6,0,1,58.39,1,0
+271,3988,441.59,Dining,Seattle,In-store,Bank Transfer,45,27,18,134.9,0,0,37.15,1,0
+272,58872,405.08,Dining,Houston,Web,Bank Transfer,59,8,17,220.62,1,1,44.89,1,0
+273,22400,572.86,Grocery,Chicago,Mobile,Debit Card,23,11,12,140.57,0,1,53.72,1,0
+274,46215,804.17,Travel,New York,In-store,Credit Card,20,4,7,173.87,1,0,20.35,0,0
+275,70272,538.86,Clothing,Houston,Mobile,Debit Card,52,21,16,84.79,0,0,15.58,1,1
+276,44065,661.99,Entertainment,Chicago,Mobile,Credit Card,35,19,11,162.16,1,1,88.04,0,0
+277,70092,738.12,Grocery,Los Angeles,Web,Bank Transfer,28,21,14,294.7,0,1,43.37,0,0
+278,40819,520.65,Grocery,New York,Mobile,Credit Card,37,27,3,232.09,1,1,41.21,1,0
+279,45526,427.39,Clothing,New York,In-store,Debit Card,22,23,19,186.43,1,0,3.56,0,0
+280,19831,876.79,Travel,Los Angeles,In-store,Debit Card,36,2,18,378.3,1,0,49.8,1,0
+281,17430,418.09,Travel,Los Angeles,Web,Debit Card,39,4,10,448.88,1,1,55.42,0,1
+282,6894,462.48,Dining,New York,Mobile,Credit Card,36,1,6,383.26,0,0,55.88,1,0
+283,79910,990.35,Clothing,Los Angeles,In-store,Debit Card,64,13,13,179.36,0,1,70.7,1,0
+284,47334,1.24,Clothing,San Francisco,Mobile,Debit Card,33,1,10,377.33,1,1,17.75,0,0
+285,3437,186.29,Travel,Chicago,Mobile,Debit Card,41,12,18,92.95,0,0,25.22,1,0
+286,74291,384.58,Dining,Chicago,Mobile,Bank Transfer,58,6,16,82.55,1,1,81.07,1,0
+287,76214,932.66,Grocery,Chicago,Web,Bank Transfer,21,9,6,185.9,1,0,94.72,1,0
+288,5896,70.96,Electronics,San Francisco,Mobile,Credit Card,32,12,13,407.7,0,0,13.59,1,0
+289,19739,10.48,Entertainment,Los Angeles,In-store,Credit Card,42,15,4,138.25,0,1,49.76,0,0
+290,30747,53.63,Grocery,Houston,Mobile,Debit Card,61,25,14,50.36,1,0,21.42,0,0
+291,49378,89.45,Travel,Los Angeles,In-store,Bank Transfer,52,13,1,83.22,0,1,6.01,0,0
+292,48405,38.56,Entertainment,New York,Mobile,Debit Card,31,10,5,432.2,1,0,32.55,1,0
+293,54046,480.3,Electronics,Seattle,In-store,Debit Card,66,9,8,324.22,0,1,14.37,0,0
+294,39791,581.18,Electronics,Chicago,In-store,Bank Transfer,36,5,12,141.54,0,1,70.99,1,0
+295,5601,272.42,Dining,Los Angeles,Mobile,Bank Transfer,55,3,2,286.54,0,1,53.37,1,0
+296,40765,398.89,Entertainment,Houston,Mobile,Bank Transfer,53,20,12,273.24,0,0,14.38,1,0
+297,74544,92.61,Dining,New York,In-store,Credit Card,24,0,5,334.61,0,1,0.92,0,0
+298,45715,337.03,Grocery,San Francisco,Web,Credit Card,47,6,5,131.93,1,0,80.82,0,0
+299,56836,523.0,Clothing,San Francisco,Mobile,Debit Card,36,23,13,434.91,0,0,17.62,0,0
+300,73745,732.54,Clothing,Houston,Web,Credit Card,66,8,9,168.5,0,0,60.62,0,0
+301,56492,4.34,Clothing,New York,Mobile,Bank Transfer,42,7,10,353.18,1,0,33.69,1,0
+302,18590,467.84,Entertainment,Chicago,Mobile,Bank Transfer,33,4,1,27.74,1,0,58.55,0,0
+303,43485,297.71,Clothing,Los Angeles,Mobile,Credit Card,64,18,3,198.88,1,1,31.57,0,0
+304,82990,852.97,Grocery,New York,Mobile,Debit Card,57,9,18,188.82,0,0,8.69,0,0
+305,36213,715.84,Dining,San Francisco,Web,Debit Card,68,10,12,280.87,0,1,22.3,0,0
+306,43526,589.52,Entertainment,Houston,Mobile,Credit Card,25,24,3,54.91,1,1,18.81,1,0
+307,47203,277.99,Dining,Houston,In-store,Debit Card,35,14,9,399.26,1,0,42.8,0,0
+308,32636,910.43,Entertainment,Los Angeles,In-store,Debit Card,45,5,2,124.53,1,1,65.83,0,0
+309,63209,46.06,Dining,Houston,Web,Debit Card,33,14,3,344.98,1,1,26.38,0,0
+310,33829,110.36,Electronics,Houston,Mobile,Bank Transfer,69,4,14,405.54,0,0,1.21,1,0
+311,18712,392.24,Dining,New York,In-store,Bank Transfer,36,28,4,289.7,0,1,51.89,0,0
+312,3421,125.31,Clothing,Chicago,Web,Credit Card,59,18,19,375.62,0,0,60.58,0,1
+313,302,956.46,Electronics,Los Angeles,Mobile,Bank Transfer,34,21,13,337.69,0,0,96.29,0,0
+314,45237,798.19,Dining,New York,In-store,Debit Card,62,18,7,190.65,0,0,58.95,1,0
+315,66236,259.72,Entertainment,Chicago,In-store,Bank Transfer,30,9,12,408.25,1,1,47.12,1,0
+316,54241,588.97,Entertainment,New York,Web,Credit Card,24,11,3,161.46,0,1,57.34,0,0
+317,65727,982.35,Entertainment,Seattle,Mobile,Bank Transfer,44,21,9,294.18,1,1,92.79,0,0
+318,10493,884.31,Travel,New York,Mobile,Debit Card,27,3,2,377.79,1,1,82.84,1,0
+319,6103,601.2,Grocery,Houston,In-store,Debit Card,51,30,9,201.9,1,0,32.3,1,0
+320,50337,903.82,Entertainment,Chicago,In-store,Credit Card,53,17,12,165.33,0,0,23.73,1,0
+321,85315,989.2,Electronics,Los Angeles,In-store,Bank Transfer,42,15,12,240.49,1,1,26.26,1,0
+322,26642,743.61,Entertainment,Los Angeles,Mobile,Bank Transfer,23,7,15,412.62,0,0,50.44,1,0
+323,34585,65.92,Travel,Chicago,Web,Bank Transfer,41,3,2,466.36,1,1,74.4,0,0
+324,32746,402.18,Clothing,Houston,Web,Debit Card,35,24,18,281.64,0,0,50.32,0,0
+325,23094,837.99,Electronics,San Francisco,Mobile,Credit Card,40,22,13,337.5,1,0,6.78,0,0
+326,66106,231.34,Travel,New York,Web,Bank Transfer,23,11,14,453.57,0,0,72.36,0,0
+327,51886,830.81,Clothing,Houston,In-store,Debit Card,46,1,5,67.3,1,0,80.6,1,1
+328,36632,121.22,Electronics,Seattle,Web,Debit Card,42,3,10,131.4,1,0,28.95,1,0
+329,72992,47.9,Dining,Chicago,Web,Debit Card,34,4,12,360.27,1,1,66.41,1,0
+330,4015,384.71,Grocery,New York,Web,Bank Transfer,63,2,10,415.4,1,1,42.66,1,0
+331,11094,37.7,Grocery,Los Angeles,In-store,Bank Transfer,41,8,11,431.37,0,0,88.91,1,1
+332,18071,957.31,Travel,San Francisco,Mobile,Bank Transfer,28,28,2,219.25,0,1,84.52,0,0
+333,35778,826.38,Clothing,Seattle,In-store,Bank Transfer,43,20,5,62.88,0,0,52.54,0,0
+334,56959,800.97,Grocery,Los Angeles,Mobile,Bank Transfer,68,17,7,230.14,1,0,69.15,0,0
+335,82075,630.15,Clothing,Chicago,Mobile,Bank Transfer,51,10,6,130.75,1,0,88.33,0,0
+336,10730,217.11,Clothing,New York,Mobile,Bank Transfer,45,2,3,159.77,1,0,49.57,0,0
+337,45018,518.74,Travel,Chicago,Web,Bank Transfer,20,29,13,390.69,1,1,31.33,1,0
+338,66321,597.68,Travel,New York,Web,Bank Transfer,28,30,3,56.25,1,0,75.37,1,0
+339,27752,525.51,Travel,Houston,Mobile,Debit Card,55,24,6,417.24,1,1,22.01,1,1
+340,78070,260.97,Grocery,San Francisco,Mobile,Bank Transfer,31,22,11,225.28,0,0,38.85,1,0
+341,54749,515.73,Travel,Houston,Web,Credit Card,68,1,17,306.11,0,0,86.57,1,0
+342,5802,491.7,Grocery,Houston,In-store,Debit Card,43,8,10,63.03,0,1,72.44,0,0
+343,19191,996.34,Travel,Chicago,Mobile,Bank Transfer,65,13,12,181.93,0,0,40.38,0,0
+344,49690,897.54,Entertainment,San Francisco,In-store,Credit Card,38,3,17,63.06,0,0,21.47,0,0
+345,50994,463.92,Clothing,New York,Web,Bank Transfer,56,28,4,481.54,0,1,35.6,1,0
+346,29593,623.31,Travel,New York,Mobile,Credit Card,47,8,2,407.49,0,1,28.41,1,0
+347,10648,748.12,Electronics,Seattle,In-store,Credit Card,25,30,11,240.62,0,1,17.61,1,0
+348,8717,35.83,Clothing,Los Angeles,In-store,Credit Card,68,12,7,127.33,1,0,74.33,1,0
+349,70317,895.03,Clothing,Seattle,In-store,Credit Card,37,17,2,468.06,1,0,25.21,0,0
+350,2369,860.27,Travel,Seattle,Web,Debit Card,65,14,18,185.41,1,1,45.42,1,0
+351,77576,457.97,Dining,New York,Web,Debit Card,49,27,4,97.27,1,1,38.59,0,0
+352,6656,391.78,Travel,Chicago,In-store,Credit Card,39,9,8,290.32,1,0,98.21,1,0
+353,70032,273.69,Clothing,Houston,In-store,Bank Transfer,24,15,14,473.01,1,0,39.11,0,0
+354,76430,477.2,Electronics,Houston,Web,Credit Card,26,11,12,21.84,1,1,8.0,1,0
+355,55767,45.33,Clothing,Houston,In-store,Debit Card,62,19,18,134.3,0,1,8.98,1,0
+356,13404,852.34,Electronics,San Francisco,In-store,Bank Transfer,18,4,11,470.45,0,1,59.08,0,0
+357,32098,36.39,Grocery,New York,Web,Debit Card,46,1,8,102.12,1,1,59.94,0,0
+358,78658,329.72,Entertainment,Chicago,In-store,Debit Card,25,9,2,74.36,0,0,41.88,1,0
+359,10967,931.66,Clothing,San Francisco,In-store,Bank Transfer,21,0,15,293.69,0,0,43.18,0,0
+360,52922,735.48,Travel,Los Angeles,In-store,Credit Card,52,6,9,433.69,0,0,5.39,1,0
+361,49727,282.11,Grocery,Chicago,Web,Credit Card,20,25,19,249.01,0,0,51.65,1,0
+362,50301,253.4,Entertainment,Seattle,In-store,Credit Card,62,16,8,497.39,0,1,50.47,0,1
+363,22678,6.08,Travel,Chicago,Web,Credit Card,57,15,19,346.0,1,0,14.95,1,0
+364,55610,696.02,Dining,Chicago,Web,Bank Transfer,24,26,5,55.56,0,1,10.38,1,0
+365,56662,49.73,Travel,Houston,Mobile,Bank Transfer,44,26,11,496.56,1,0,12.36,0,1
+366,31025,533.07,Electronics,Chicago,Mobile,Bank Transfer,18,23,15,215.79,1,0,10.1,1,0
+367,70314,962.16,Electronics,Seattle,In-store,Debit Card,44,2,8,157.95,1,0,60.97,1,0
+368,53007,110.36,Dining,Seattle,Web,Bank Transfer,33,13,19,287.78,0,1,19.65,1,0
+369,15339,894.59,Grocery,New York,Mobile,Credit Card,55,9,8,166.07,1,0,25.14,1,0
+370,68028,991.48,Entertainment,Chicago,In-store,Debit Card,24,21,19,61.5,1,1,17.36,0,0
+371,80136,62.46,Travel,Houston,Mobile,Credit Card,61,6,18,20.69,1,1,95.78,0,1
+372,19509,883.02,Electronics,Chicago,Mobile,Credit Card,40,25,10,235.8,1,0,85.46,0,0
+373,3052,516.56,Grocery,Los Angeles,Web,Bank Transfer,58,16,7,421.69,0,1,23.05,1,0
+374,48748,906.61,Dining,Los Angeles,Web,Bank Transfer,28,29,9,294.71,1,0,32.76,0,0
+375,54022,571.75,Clothing,Houston,Mobile,Credit Card,59,5,1,499.62,1,1,20.99,0,0
+376,66413,662.45,Electronics,New York,Mobile,Credit Card,70,22,19,157.69,1,0,49.19,0,0
+377,58336,544.24,Dining,New York,Web,Debit Card,50,21,5,154.62,1,1,1.96,1,0
+378,56180,864.63,Travel,Seattle,In-store,Bank Transfer,67,3,19,96.68,0,1,67.14,0,0
+379,32094,734.18,Entertainment,Seattle,Web,Debit Card,53,16,1,98.75,1,0,52.32,0,0
+380,69679,521.74,Electronics,San Francisco,Mobile,Debit Card,54,26,15,156.89,1,0,89.86,1,1
+381,80739,868.29,Electronics,Houston,In-store,Debit Card,58,8,16,400.56,1,0,16.44,1,0
+382,39735,246.04,Travel,Chicago,Mobile,Credit Card,34,3,7,454.76,1,0,80.41,1,0
+383,72616,158.18,Clothing,Houston,In-store,Debit Card,52,6,12,488.04,1,1,79.2,1,0
+384,73524,161.24,Grocery,San Francisco,Mobile,Debit Card,65,22,8,131.5,1,1,12.72,1,0
+385,17020,334.67,Entertainment,Seattle,In-store,Credit Card,22,1,5,443.02,0,1,39.86,1,0
+386,83614,239.45,Electronics,Houston,In-store,Bank Transfer,65,16,10,177.56,1,1,17.02,0,0
+387,73848,930.16,Entertainment,Houston,Mobile,Bank Transfer,49,23,5,74.16,0,0,25.47,0,0
+388,82751,106.73,Electronics,Seattle,In-store,Debit Card,20,7,17,437.61,0,1,26.32,1,0
+389,79635,699.29,Entertainment,San Francisco,Web,Credit Card,69,22,5,325.33,1,0,55.62,1,1
+390,28252,190.03,Dining,Seattle,Mobile,Bank Transfer,64,29,15,99.07,0,1,41.14,0,0
+391,25946,881.76,Electronics,New York,Web,Debit Card,52,30,13,226.32,1,0,94.77,1,1
+392,32218,961.35,Entertainment,Chicago,Mobile,Debit Card,69,14,1,157.88,0,0,12.64,1,0
+393,8309,466.0,Grocery,Seattle,In-store,Credit Card,31,30,11,373.66,1,0,97.37,0,0
+394,5950,879.19,Dining,San Francisco,In-store,Debit Card,65,14,1,237.64,0,0,23.06,1,0
+395,51991,6.14,Dining,Los Angeles,In-store,Bank Transfer,48,7,11,494.85,0,0,77.29,1,0
+396,1151,820.13,Grocery,New York,Mobile,Credit Card,48,15,18,46.28,1,1,33.9,0,0
+397,74741,229.4,Entertainment,Los Angeles,Web,Bank Transfer,34,18,18,190.41,0,0,14.31,0,0
+398,66618,908.79,Travel,Seattle,Web,Bank Transfer,41,10,16,251.31,0,1,85.79,0,0
+399,16897,2.12,Grocery,New York,Mobile,Bank Transfer,69,1,13,261.5,0,1,30.89,0,1
+400,46176,556.63,Entertainment,Chicago,Mobile,Debit Card,40,22,7,171.65,0,0,65.89,0,0
+401,7806,756.88,Grocery,Seattle,Web,Debit Card,35,23,1,370.04,0,1,56.64,1,0
+402,5238,259.43,Grocery,Chicago,Web,Bank Transfer,67,16,16,439.88,1,1,47.18,1,0
+403,20057,193.94,Electronics,Houston,Web,Bank Transfer,31,27,1,470.59,0,1,49.58,1,0
+404,45544,85.01,Entertainment,Los Angeles,Web,Credit Card,67,25,17,406.44,0,0,73.22,1,0
+405,56557,327.11,Travel,New York,Mobile,Credit Card,32,15,6,428.28,1,0,8.78,1,0
+406,3344,560.28,Electronics,Chicago,Mobile,Debit Card,32,24,2,284.26,1,0,66.82,0,0
+407,13501,116.73,Grocery,San Francisco,In-store,Debit Card,23,14,17,416.43,1,0,89.58,1,0
+408,53223,377.32,Clothing,Chicago,Web,Credit Card,44,12,6,165.68,0,1,5.78,1,0
+409,29376,10.06,Grocery,San Francisco,In-store,Bank Transfer,32,14,14,211.27,0,1,14.07,1,0
+410,9663,818.86,Grocery,Seattle,Mobile,Debit Card,67,26,18,172.12,0,1,71.66,1,0
+411,16965,129.32,Entertainment,New York,Mobile,Bank Transfer,53,3,6,244.35,0,1,43.73,1,0
+412,59639,284.06,Entertainment,Chicago,In-store,Credit Card,25,15,10,157.08,1,1,40.35,0,1
+413,73667,19.41,Electronics,Chicago,Web,Debit Card,32,29,18,481.57,1,1,13.7,1,0
+414,85068,432.81,Travel,New York,Web,Debit Card,20,11,9,170.17,0,0,50.68,1,0
+415,67216,840.28,Electronics,Chicago,Web,Credit Card,64,29,8,67.06,0,1,12.65,1,0
+416,69043,392.76,Dining,San Francisco,Web,Debit Card,30,3,10,272.87,0,1,47.66,1,0
+417,13285,180.32,Grocery,Chicago,In-store,Credit Card,58,2,17,47.41,0,1,76.36,1,1
+418,72790,753.95,Clothing,Los Angeles,In-store,Debit Card,51,21,6,73.06,1,0,25.83,1,0
+419,84665,789.02,Grocery,Seattle,Mobile,Credit Card,41,16,14,125.31,1,1,48.08,0,0
+420,61390,174.58,Grocery,Houston,Web,Debit Card,57,21,6,242.89,0,1,99.2,1,1
+421,9436,771.08,Electronics,San Francisco,Web,Bank Transfer,49,17,7,227.96,1,0,68.67,0,0
+422,54341,947.35,Clothing,Los Angeles,Web,Bank Transfer,49,24,12,403.85,0,1,84.14,0,0
+423,44079,167.21,Clothing,Seattle,In-store,Bank Transfer,47,17,3,374.95,0,0,41.48,1,1
+424,78833,771.21,Clothing,New York,Web,Debit Card,69,22,14,224.63,1,0,76.79,1,0
+425,51294,708.86,Electronics,San Francisco,In-store,Debit Card,66,27,19,180.18,0,1,4.05,1,1
+426,78782,474.1,Grocery,Houston,Web,Bank Transfer,30,16,16,171.91,1,1,12.29,0,0
+427,60404,58.86,Electronics,Seattle,Web,Bank Transfer,18,11,7,391.52,0,0,20.31,1,1
+428,29125,75.62,Entertainment,Houston,Mobile,Credit Card,51,22,8,44.99,1,1,40.2,1,0
+429,43920,852.56,Entertainment,New York,Web,Credit Card,32,20,18,26.15,0,1,84.57,1,1
+430,35248,990.16,Electronics,New York,Web,Credit Card,61,23,13,401.86,1,0,34.63,0,0
+431,62753,676.38,Clothing,San Francisco,Mobile,Bank Transfer,31,3,9,249.03,0,0,65.46,0,0
+432,56574,446.51,Grocery,Chicago,In-store,Bank Transfer,46,30,10,82.82,0,1,70.93,1,0
+433,59102,647.93,Electronics,New York,In-store,Bank Transfer,51,11,9,133.07,1,0,58.62,0,0
+434,26647,594.8,Electronics,Seattle,Web,Credit Card,35,30,15,467.6,0,1,35.72,1,0
+435,23050,384.23,Electronics,Chicago,In-store,Debit Card,24,25,2,432.56,1,1,57.71,0,0
+436,79606,66.56,Dining,Los Angeles,Web,Bank Transfer,46,22,13,360.7,1,1,34.23,1,0
+437,68386,821.69,Entertainment,Houston,Mobile,Debit Card,48,21,2,251.47,0,1,8.39,0,0
+438,40159,372.46,Clothing,Chicago,Mobile,Debit Card,42,20,19,269.76,0,0,99.28,1,0
+439,65418,818.97,Travel,Houston,Web,Debit Card,55,19,2,488.12,0,1,12.72,1,1
+440,23290,253.26,Clothing,Chicago,Mobile,Credit Card,31,14,3,483.57,0,0,7.23,0,0
+441,9824,2.03,Travel,Los Angeles,Mobile,Debit Card,25,22,6,123.33,1,1,87.85,0,0
+442,60161,159.78,Dining,New York,Web,Bank Transfer,44,27,3,409.33,0,1,30.18,0,0
+443,41976,469.07,Electronics,Los Angeles,Web,Credit Card,19,15,10,114.68,0,0,65.03,0,0
+444,9541,944.36,Dining,New York,Mobile,Bank Transfer,34,4,6,122.5,0,1,32.9,0,0
+445,16365,103.09,Dining,New York,In-store,Bank Transfer,54,20,16,344.52,1,0,39.15,1,0
+446,4612,854.36,Grocery,Houston,In-store,Credit Card,31,14,17,214.4,0,0,26.21,1,0
+447,27664,527.5,Entertainment,Seattle,Web,Bank Transfer,42,16,19,467.14,1,1,34.3,0,0
+448,51992,826.09,Travel,Los Angeles,Web,Bank Transfer,47,17,3,62.72,0,1,41.07,1,0
+449,57680,299.08,Electronics,Chicago,In-store,Credit Card,46,4,18,265.53,1,1,72.04,1,0
+450,30978,840.11,Travel,Los Angeles,Mobile,Bank Transfer,37,12,7,460.89,0,1,51.15,0,0
+451,49116,773.05,Clothing,Houston,In-store,Debit Card,38,18,9,453.97,0,0,94.36,1,0
+452,60891,230.82,Travel,New York,In-store,Bank Transfer,70,29,12,95.13,1,1,4.19,1,0
+453,66388,132.2,Clothing,Houston,In-store,Debit Card,39,12,5,195.99,0,1,50.31,0,0
+454,18072,868.19,Entertainment,San Francisco,In-store,Bank Transfer,52,17,3,317.18,0,1,58.42,0,0
+455,59276,963.27,Clothing,San Francisco,Web,Credit Card,54,13,11,96.51,0,1,92.02,1,0
+456,72370,32.27,Travel,Chicago,Web,Credit Card,33,29,4,484.65,1,1,4.92,0,0
+457,11939,731.54,Travel,Houston,Mobile,Bank Transfer,67,3,5,459.08,0,0,57.35,1,0
+458,35196,909.61,Clothing,Chicago,Mobile,Credit Card,66,3,1,100.14,1,1,85.36,0,0
+459,4001,857.5,Dining,Chicago,Mobile,Bank Transfer,60,19,18,78.15,1,0,24.19,0,0
+460,70589,964.56,Entertainment,San Francisco,Mobile,Credit Card,34,19,12,61.0,1,1,87.63,0,0
+461,38305,760.33,Grocery,Chicago,In-store,Debit Card,33,18,13,456.53,0,1,1.9,0,1
+462,69450,442.86,Electronics,San Francisco,Web,Bank Transfer,19,12,9,112.94,1,1,73.25,1,0
+463,82987,312.64,Travel,New York,Web,Debit Card,21,11,2,219.82,1,0,93.31,0,0
+464,20765,321.42,Electronics,Houston,Mobile,Debit Card,38,6,5,235.45,0,1,65.72,0,1
+465,86028,724.7,Grocery,Chicago,Mobile,Bank Transfer,56,24,13,307.53,1,0,43.9,1,0
+466,38495,746.09,Electronics,San Francisco,In-store,Debit Card,51,11,16,54.43,1,0,4.49,1,0
+467,3374,201.16,Grocery,Los Angeles,In-store,Bank Transfer,47,20,16,128.84,0,1,92.01,1,0
+468,12162,868.25,Clothing,Chicago,Mobile,Debit Card,23,3,3,467.12,0,0,47.03,1,0
+469,27351,715.21,Dining,Seattle,Web,Bank Transfer,34,26,4,456.04,1,1,2.9,0,0
+470,25352,563.19,Travel,New York,Web,Bank Transfer,56,1,11,395.02,0,1,68.98,1,0
+471,15306,472.06,Grocery,New York,Web,Credit Card,42,1,14,29.31,0,0,48.18,0,0
+472,75354,543.69,Electronics,Los Angeles,Mobile,Bank Transfer,22,4,3,176.96,0,1,12.43,1,0
+473,76798,160.09,Travel,San Francisco,Web,Bank Transfer,22,22,16,321.42,1,1,21.43,0,0
+474,65954,204.5,Dining,Chicago,In-store,Debit Card,37,9,15,152.09,1,0,6.45,1,0
+475,57459,92.07,Clothing,San Francisco,In-store,Bank Transfer,33,9,10,456.6,0,0,57.43,0,0
+476,20359,154.5,Travel,New York,Mobile,Credit Card,68,8,9,324.27,1,0,62.2,0,0
+477,3268,454.24,Grocery,San Francisco,In-store,Debit Card,58,12,11,54.52,0,0,50.57,1,0
+478,82746,530.82,Dining,New York,Mobile,Debit Card,54,6,16,456.32,0,0,81.71,0,0
+479,38514,18.84,Electronics,San Francisco,Web,Credit Card,57,4,10,479.73,0,0,86.1,0,1
+480,26093,797.0,Dining,Los Angeles,Web,Debit Card,26,25,17,57.3,0,1,61.56,0,0
+481,11339,294.87,Dining,Houston,Web,Debit Card,22,9,19,275.53,0,0,1.28,0,0
+482,413,911.92,Entertainment,Los Angeles,In-store,Debit Card,59,9,2,165.61,1,0,69.52,1,0
+483,7544,967.54,Dining,Los Angeles,Mobile,Debit Card,19,5,2,208.56,1,1,41.8,0,0
+484,33497,186.27,Dining,Houston,Web,Credit Card,26,26,6,106.23,1,1,56.56,0,0
+485,60693,462.64,Travel,Houston,Mobile,Credit Card,60,27,19,297.47,1,0,64.91,1,0
+486,44426,2.23,Electronics,Chicago,Web,Debit Card,53,18,8,479.83,0,0,35.02,1,0
+487,38757,598.73,Travel,Chicago,In-store,Debit Card,39,20,3,261.47,0,1,91.71,1,0
+488,18889,607.7,Travel,Los Angeles,In-store,Credit Card,39,7,14,59.8,1,0,13.4,0,1
+489,35736,248.29,Grocery,Los Angeles,Mobile,Credit Card,39,0,16,317.6,1,0,67.15,0,0
+490,47296,558.85,Travel,New York,In-store,Credit Card,51,27,1,183.31,0,1,0.44,1,0
+491,83043,226.31,Entertainment,New York,In-store,Debit Card,46,16,3,430.84,0,0,92.47,0,1
+492,86000,161.66,Entertainment,Chicago,Mobile,Debit Card,55,6,18,228.65,0,1,11.25,1,0
+493,17956,651.87,Grocery,Seattle,Web,Bank Transfer,63,13,9,112.56,1,0,9.49,0,0
+494,37842,326.6,Clothing,Seattle,In-store,Credit Card,50,20,6,111.73,0,1,33.3,1,0
+495,70641,590.67,Electronics,Chicago,Mobile,Debit Card,35,29,1,389.01,0,1,37.36,0,0
+496,65511,433.81,Electronics,New York,In-store,Credit Card,24,20,10,147.48,1,1,21.43,1,0
+497,34912,984.37,Travel,New York,In-store,Debit Card,18,16,6,388.27,1,0,58.51,0,0
+498,59032,150.43,Travel,Seattle,In-store,Credit Card,50,8,12,118.83,1,1,44.29,1,0
+499,7358,465.13,Clothing,San Francisco,In-store,Debit Card,18,16,4,174.41,0,0,3.42,0,0
+500,32480,680.78,Travel,San Francisco,Mobile,Bank Transfer,41,4,13,243.43,0,1,31.97,0,0
+501,61477,396.15,Electronics,New York,Mobile,Bank Transfer,21,25,17,472.73,1,1,81.04,0,0
+502,44812,974.73,Dining,San Francisco,Mobile,Credit Card,21,24,8,467.23,0,1,68.97,1,0
+503,36209,722.17,Entertainment,Houston,In-store,Debit Card,35,29,3,119.3,0,0,72.49,0,0
+504,20151,657.33,Dining,Chicago,In-store,Debit Card,44,30,12,191.95,0,0,69.81,0,1
+505,71181,757.3,Dining,Chicago,In-store,Credit Card,60,19,7,91.71,1,1,31.1,0,0
+506,43287,952.7,Electronics,New York,Mobile,Debit Card,49,28,12,264.79,1,0,9.97,1,0
+507,68451,907.91,Dining,Los Angeles,In-store,Credit Card,50,7,2,241.08,0,0,27.25,0,0
+508,21353,724.56,Clothing,Seattle,Web,Debit Card,45,5,14,452.36,0,0,83.18,1,0
+509,55070,749.41,Grocery,New York,In-store,Credit Card,59,10,5,466.4,0,1,98.05,0,0
+510,14398,146.78,Travel,San Francisco,Web,Debit Card,58,30,9,204.11,0,0,49.38,1,0
+511,41556,103.69,Grocery,Seattle,In-store,Credit Card,53,18,11,256.03,1,1,0.97,1,0
+512,46960,571.33,Entertainment,Los Angeles,Mobile,Debit Card,23,3,5,450.19,1,1,14.0,0,0
+513,729,19.35,Travel,San Francisco,In-store,Bank Transfer,33,17,3,407.22,0,1,32.21,1,0
+514,50518,482.87,Dining,Houston,Web,Debit Card,51,0,17,21.76,0,0,57.86,1,0
+515,66235,211.14,Entertainment,San Francisco,Web,Credit Card,40,12,2,173.63,1,1,7.51,0,0
+516,39955,346.67,Travel,Houston,In-store,Bank Transfer,67,13,1,222.45,0,0,94.34,1,0
+517,47281,776.03,Clothing,Seattle,Web,Debit Card,59,23,7,130.26,1,0,36.51,1,0
+518,79460,941.3,Clothing,Houston,Web,Bank Transfer,41,0,14,115.79,0,1,91.26,1,0
+519,16780,73.34,Clothing,Seattle,Mobile,Debit Card,66,29,5,38.14,1,1,78.05,1,0
+520,63933,534.71,Clothing,Seattle,In-store,Bank Transfer,30,28,19,328.82,0,1,75.54,0,0
+521,72937,882.65,Dining,Seattle,In-store,Credit Card,35,10,11,146.0,0,0,60.67,1,1
+522,24467,83.43,Grocery,Seattle,In-store,Debit Card,30,16,2,45.13,1,0,62.68,1,0
+523,36940,824.69,Travel,Seattle,Web,Debit Card,66,3,8,130.87,1,1,63.8,0,0
+524,69897,358.44,Dining,San Francisco,In-store,Credit Card,54,25,9,404.92,0,1,62.87,0,0
+525,35271,322.77,Clothing,Seattle,In-store,Bank Transfer,60,11,3,428.71,0,0,55.37,1,0
+526,59164,977.49,Grocery,San Francisco,Mobile,Credit Card,56,9,2,251.87,1,0,98.64,0,0
+527,82638,201.66,Entertainment,Seattle,Mobile,Credit Card,59,30,7,219.71,1,1,73.23,0,0
+528,51935,693.5,Entertainment,Houston,Mobile,Bank Transfer,34,5,5,489.37,0,0,77.69,0,0
+529,64896,821.62,Entertainment,Seattle,Web,Credit Card,32,24,5,116.27,0,0,87.25,0,0
+530,32308,42.14,Clothing,Los Angeles,In-store,Debit Card,35,0,13,123.37,1,0,21.56,0,0
+531,54099,670.72,Entertainment,Seattle,Mobile,Debit Card,40,6,6,160.1,1,0,8.38,0,1
+532,60922,951.6,Electronics,Seattle,Mobile,Debit Card,68,25,18,102.92,1,0,48.29,0,0
+533,5487,125.1,Travel,Houston,Mobile,Credit Card,47,26,2,202.1,1,0,51.41,0,0
+534,8336,896.33,Travel,Chicago,In-store,Debit Card,51,20,6,457.2,1,1,82.92,0,0
+535,11131,595.18,Clothing,Houston,In-store,Debit Card,21,27,9,315.37,0,0,44.38,1,0
+536,60567,616.99,Electronics,Los Angeles,In-store,Debit Card,20,30,3,217.73,0,1,57.09,1,0
+537,66704,613.33,Dining,Chicago,Web,Debit Card,24,15,1,468.52,1,1,52.71,1,0
+538,27193,299.54,Dining,New York,Web,Debit Card,35,23,1,43.26,0,0,3.82,1,0
+539,1063,935.27,Entertainment,New York,Mobile,Debit Card,59,13,19,120.93,0,1,61.52,1,0
+540,84077,947.4,Grocery,Los Angeles,In-store,Credit Card,24,22,5,291.63,1,1,82.8,0,0
+541,21546,625.68,Dining,Houston,Mobile,Debit Card,57,19,13,315.47,0,1,15.75,0,0
+542,21690,783.64,Grocery,San Francisco,In-store,Debit Card,23,19,19,38.99,0,0,59.43,1,0
+543,11175,612.65,Travel,Los Angeles,In-store,Bank Transfer,39,5,12,213.46,0,1,59.36,1,0
+544,9349,484.91,Grocery,Chicago,In-store,Credit Card,18,21,16,331.59,1,0,16.42,0,0
+545,23715,661.16,Travel,Chicago,Web,Credit Card,21,24,19,355.07,1,1,12.35,1,0
+546,38103,553.45,Electronics,Seattle,Web,Credit Card,63,27,3,326.31,0,1,98.01,0,0
+547,74461,597.88,Electronics,New York,In-store,Credit Card,66,4,12,173.87,0,1,39.37,1,0
+548,6802,784.05,Clothing,Chicago,Mobile,Debit Card,69,23,5,64.89,0,1,22.74,0,0
+549,72268,481.42,Clothing,Los Angeles,In-store,Debit Card,67,20,2,225.01,0,0,17.13,1,0
+550,48137,41.71,Entertainment,Chicago,In-store,Bank Transfer,60,17,7,81.8,0,1,66.76,0,0
+551,23626,164.84,Dining,Los Angeles,Mobile,Bank Transfer,46,14,13,474.86,0,1,60.94,1,1
+552,82874,439.17,Entertainment,San Francisco,In-store,Credit Card,38,5,15,248.08,1,0,64.36,1,0
+553,72593,725.1,Travel,Seattle,Mobile,Bank Transfer,43,24,3,172.28,0,0,8.8,0,0
+554,77053,593.69,Entertainment,New York,Web,Bank Transfer,31,28,5,387.83,0,0,89.35,0,0
+555,44262,650.64,Grocery,Chicago,Web,Credit Card,26,18,8,259.02,1,1,38.93,1,0
+556,1543,479.8,Travel,Los Angeles,Mobile,Credit Card,64,0,1,168.82,0,0,31.34,1,0
+557,21678,616.13,Clothing,Houston,Web,Bank Transfer,29,0,8,409.74,0,0,46.24,0,0
+558,46733,329.69,Electronics,New York,Web,Debit Card,59,12,18,436.23,0,0,39.01,0,0
+559,50344,470.71,Clothing,San Francisco,Mobile,Bank Transfer,68,2,16,343.04,0,0,86.36,0,0
+560,39082,744.53,Dining,Los Angeles,Web,Bank Transfer,68,9,18,42.54,1,0,92.93,1,1
+561,62857,871.96,Travel,Seattle,In-store,Debit Card,23,20,12,291.83,0,0,30.35,1,0
+562,19066,434.22,Travel,Seattle,In-store,Debit Card,37,2,13,386.38,1,1,86.39,0,0
+563,83461,44.62,Grocery,San Francisco,Mobile,Credit Card,41,8,13,85.52,0,0,78.15,1,0
+564,54694,162.51,Dining,San Francisco,Web,Credit Card,44,7,10,129.76,0,1,93.08,1,0
+565,26963,21.84,Electronics,Seattle,In-store,Bank Transfer,55,2,7,443.6,1,0,24.58,0,0
+566,28296,653.61,Travel,Chicago,In-store,Debit Card,25,24,14,29.66,0,0,57.7,1,1
+567,13808,332.98,Travel,Chicago,Web,Credit Card,18,30,16,381.31,1,0,27.45,0,0
+568,42349,542.94,Grocery,Los Angeles,Web,Bank Transfer,66,12,15,247.41,1,1,82.41,0,1
+569,26433,493.78,Entertainment,Houston,In-store,Debit Card,66,5,12,234.45,1,0,0.53,1,0
+570,83286,82.44,Electronics,Los Angeles,In-store,Bank Transfer,41,12,9,23.41,0,0,56.48,1,1
+571,57855,403.86,Clothing,Houston,Mobile,Credit Card,64,22,8,413.31,0,0,33.92,0,0
+572,40263,221.34,Dining,San Francisco,Mobile,Credit Card,24,19,18,192.72,0,0,32.27,0,0
+573,37081,418.98,Travel,New York,In-store,Debit Card,36,19,18,279.57,0,1,64.49,0,0
+574,1325,204.37,Travel,Los Angeles,Mobile,Bank Transfer,39,11,13,345.1,1,1,85.15,1,0
+575,35910,840.61,Clothing,Los Angeles,In-store,Debit Card,52,12,18,357.26,0,1,60.92,0,0
+576,19871,175.02,Electronics,Houston,In-store,Credit Card,47,1,15,478.87,0,1,85.32,0,0
+577,34579,960.82,Entertainment,San Francisco,Mobile,Credit Card,46,20,4,275.04,1,1,26.46,0,0
+578,72125,416.49,Travel,San Francisco,Mobile,Bank Transfer,39,23,17,211.87,1,0,51.95,0,0
+579,26791,846.4,Electronics,Houston,Web,Bank Transfer,28,22,5,477.78,0,0,45.05,1,1
+580,25290,629.14,Clothing,San Francisco,Web,Bank Transfer,37,15,16,328.21,1,0,1.16,1,1
+581,55130,735.61,Grocery,Seattle,Web,Debit Card,46,22,9,163.11,1,1,55.68,0,0
+582,15486,767.96,Entertainment,Chicago,In-store,Bank Transfer,68,5,10,80.7,1,0,66.15,1,0
+583,44483,505.34,Dining,Seattle,Mobile,Bank Transfer,58,18,18,424.43,1,1,59.19,1,0
+584,86189,543.76,Travel,New York,In-store,Credit Card,59,20,17,193.85,1,0,73.63,1,0
+585,4749,514.48,Electronics,Los Angeles,Mobile,Credit Card,51,12,18,337.03,0,1,57.13,0,0
+586,9436,588.47,Grocery,New York,In-store,Bank Transfer,18,16,7,245.99,0,0,6.68,1,0
+587,3710,30.37,Dining,Los Angeles,Web,Bank Transfer,48,22,4,115.49,0,0,11.64,1,0
+588,30356,396.12,Electronics,Chicago,Web,Credit Card,47,8,5,308.81,0,0,59.65,0,0
+589,55772,606.58,Electronics,San Francisco,Web,Bank Transfer,65,16,16,49.13,0,0,27.5,0,0
+590,57800,598.13,Dining,Seattle,In-store,Debit Card,35,28,3,218.4,0,1,7.96,1,0
+591,13117,793.16,Grocery,Houston,Mobile,Debit Card,34,1,18,282.38,0,0,42.96,1,0
+592,25471,655.35,Clothing,Seattle,Mobile,Debit Card,55,18,14,229.3,1,0,55.43,0,0
+593,42345,992.14,Grocery,Chicago,Web,Bank Transfer,31,18,15,379.36,0,0,32.87,0,0
+594,42919,284.57,Entertainment,New York,Web,Credit Card,40,23,17,417.4,0,1,72.04,0,0
+595,52225,359.79,Travel,Houston,Web,Bank Transfer,42,6,1,390.2,0,0,64.38,0,0
+596,39299,384.46,Dining,San Francisco,Web,Bank Transfer,32,21,17,38.63,1,0,33.28,1,0
+597,80220,466.35,Clothing,Chicago,Mobile,Credit Card,63,30,11,113.18,0,0,75.49,0,0
+598,61630,836.16,Dining,Houston,In-store,Credit Card,39,9,17,277.57,0,0,64.87,1,0
+599,66041,236.56,Dining,Chicago,In-store,Credit Card,20,9,14,468.71,1,0,63.74,1,0
+600,28017,776.22,Grocery,Chicago,In-store,Debit Card,36,26,19,420.78,0,1,55.34,1,0
+601,23961,405.9,Travel,San Francisco,In-store,Bank Transfer,61,19,7,424.42,0,1,1.14,0,0
+602,33592,602.25,Entertainment,Los Angeles,Web,Credit Card,51,8,13,165.54,1,1,69.65,0,0
+603,82849,632.91,Electronics,Houston,Web,Bank Transfer,52,16,18,226.13,0,0,37.6,1,0
+604,67642,373.48,Electronics,San Francisco,Web,Debit Card,67,26,14,245.94,1,1,94.26,1,1
+605,36396,513.1,Dining,Chicago,In-store,Debit Card,18,14,1,95.54,0,0,81.8,1,0
+606,22701,413.62,Travel,San Francisco,Web,Credit Card,69,1,7,34.91,0,0,58.77,1,0
+607,34621,70.06,Clothing,Los Angeles,Web,Credit Card,38,30,8,474.51,0,0,25.22,1,0
+608,20560,437.73,Grocery,Seattle,Mobile,Bank Transfer,46,29,18,135.54,1,0,20.37,0,0
+609,61643,98.3,Travel,Houston,Mobile,Credit Card,23,3,9,135.18,1,1,34.04,0,0
+610,76540,405.62,Travel,Los Angeles,Web,Bank Transfer,54,18,1,60.02,1,1,47.66,0,0
+611,21733,593.33,Grocery,New York,Mobile,Credit Card,18,16,17,465.68,0,1,29.61,1,0
+612,30355,579.84,Dining,Houston,Mobile,Bank Transfer,68,4,19,298.27,0,0,51.49,1,0
+613,13844,662.96,Travel,Los Angeles,Web,Bank Transfer,18,6,6,340.18,1,1,16.54,0,0
+614,71727,96.17,Electronics,Chicago,Web,Bank Transfer,44,17,3,457.56,1,1,97.77,0,0
+615,17641,652.47,Grocery,Houston,Web,Bank Transfer,38,20,5,185.9,0,0,10.79,1,0
+616,52529,312.84,Clothing,Houston,Web,Debit Card,70,21,2,318.32,0,1,93.19,0,0
+617,38414,399.65,Entertainment,San Francisco,In-store,Bank Transfer,33,26,4,38.62,0,0,91.36,0,0
+618,52639,858.13,Dining,Chicago,In-store,Credit Card,61,6,10,109.65,0,1,52.54,0,0
+619,52737,10.02,Grocery,New York,Web,Debit Card,57,16,10,419.0,1,1,72.49,1,0
+620,68867,588.82,Entertainment,Seattle,Mobile,Debit Card,43,6,11,388.05,0,1,43.6,1,0
+621,19088,599.12,Entertainment,Los Angeles,Web,Bank Transfer,33,3,16,188.31,0,0,63.0,0,0
+622,41431,397.26,Clothing,San Francisco,Web,Debit Card,45,7,17,200.87,0,1,34.06,1,0
+623,24505,237.79,Travel,Los Angeles,Mobile,Bank Transfer,18,12,16,276.11,0,1,30.12,0,0
+624,7115,235.44,Clothing,New York,In-store,Credit Card,53,3,7,20.12,0,1,57.82,0,0
+625,78860,883.83,Travel,New York,Web,Bank Transfer,27,5,16,135.8,0,1,49.81,1,0
+626,10976,442.58,Travel,Houston,Web,Debit Card,60,24,3,119.95,0,0,57.95,1,0
+627,11024,331.56,Grocery,New York,In-store,Credit Card,34,4,16,140.23,1,0,28.67,1,0
+628,21448,449.33,Grocery,Los Angeles,In-store,Bank Transfer,40,29,8,406.83,1,1,36.7,0,0
+629,23960,669.72,Dining,Chicago,Mobile,Credit Card,24,11,12,154.24,1,1,8.39,0,0
+630,66204,146.61,Travel,Chicago,In-store,Credit Card,61,3,3,111.93,0,1,5.23,0,0
+631,29704,449.98,Entertainment,Houston,In-store,Debit Card,70,23,17,262.05,1,0,25.35,1,0
+632,9338,588.3,Electronics,Seattle,In-store,Credit Card,24,28,18,435.51,0,1,7.42,0,0
+633,46428,948.63,Dining,Los Angeles,Mobile,Debit Card,61,8,11,135.85,0,1,10.38,0,0
+634,61530,253.28,Grocery,Los Angeles,In-store,Credit Card,32,3,4,57.7,0,0,81.29,0,0
+635,84666,359.89,Clothing,New York,In-store,Bank Transfer,51,18,16,191.07,0,0,3.89,0,0
+636,31922,379.98,Dining,Los Angeles,Mobile,Credit Card,63,23,17,378.87,1,0,65.89,1,0
+637,33308,605.93,Dining,San Francisco,In-store,Bank Transfer,62,13,9,284.33,0,1,27.26,1,0
+638,27356,357.38,Dining,Seattle,In-store,Bank Transfer,21,4,6,412.06,0,0,87.15,1,0
+639,4836,533.98,Dining,New York,Mobile,Credit Card,31,17,2,480.6,1,0,48.5,0,0
+640,20160,782.01,Electronics,San Francisco,Web,Bank Transfer,31,9,9,400.48,1,1,30.56,0,0
+641,47606,705.68,Clothing,Houston,Mobile,Credit Card,33,24,6,309.83,1,0,51.76,0,0
+642,38089,446.92,Clothing,Chicago,In-store,Credit Card,24,18,3,256.8,0,1,38.2,1,0
+643,78753,864.35,Clothing,Houston,In-store,Bank Transfer,49,11,6,39.23,1,1,56.43,1,0
+644,55285,558.58,Travel,Chicago,In-store,Bank Transfer,36,17,7,492.47,0,0,11.45,1,0
+645,57044,540.37,Entertainment,Houston,Mobile,Debit Card,19,16,1,204.07,0,1,99.7,1,0
+646,35548,35.15,Clothing,Los Angeles,In-store,Bank Transfer,27,29,1,93.07,1,0,42.56,1,0
+647,82845,986.71,Dining,San Francisco,In-store,Debit Card,67,23,5,340.02,1,0,34.82,0,0
+648,27533,123.85,Dining,Chicago,Mobile,Bank Transfer,34,10,6,156.46,1,0,71.02,1,0
+649,34350,231.9,Clothing,New York,Web,Credit Card,54,2,13,301.17,0,1,36.39,1,1
+650,45446,52.65,Clothing,San Francisco,Web,Bank Transfer,29,22,2,301.65,0,0,83.33,1,0
+651,5714,640.36,Dining,New York,In-store,Credit Card,23,16,15,233.95,0,1,45.43,0,0
+652,56179,225.48,Travel,San Francisco,Mobile,Credit Card,39,0,15,421.34,0,1,71.96,1,0
+653,49408,180.83,Grocery,San Francisco,In-store,Credit Card,49,14,13,147.18,0,1,10.75,1,0
+654,70341,89.47,Grocery,Houston,Mobile,Debit Card,58,27,14,235.34,0,0,84.61,1,0
+655,50991,104.21,Clothing,Chicago,Mobile,Bank Transfer,37,8,7,278.09,1,1,73.57,0,0
+656,75673,585.09,Electronics,Chicago,Web,Credit Card,18,14,14,338.54,0,1,21.17,0,0
+657,65546,688.52,Clothing,San Francisco,Web,Credit Card,64,27,10,396.31,1,0,14.53,1,0
+658,84792,397.98,Clothing,Los Angeles,Mobile,Debit Card,70,23,17,209.51,1,0,31.63,1,0
+659,58142,480.42,Grocery,Los Angeles,In-store,Bank Transfer,23,27,14,330.1,1,1,97.61,1,0
+660,23794,686.28,Dining,New York,Web,Bank Transfer,36,28,8,92.29,1,1,25.68,1,0
+661,56571,18.36,Clothing,New York,In-store,Debit Card,35,2,4,467.67,1,0,45.61,0,1
+662,37893,323.81,Dining,Houston,Web,Debit Card,23,21,16,203.87,0,1,3.0,1,0
+663,1016,973.12,Dining,San Francisco,Web,Bank Transfer,62,26,13,370.17,0,1,39.72,0,1
+664,61814,580.53,Electronics,New York,In-store,Debit Card,50,18,18,29.76,0,1,57.13,1,0
+665,27713,254.97,Dining,New York,Web,Bank Transfer,40,12,14,118.49,0,1,95.31,0,0
+666,8416,522.21,Grocery,Seattle,Web,Bank Transfer,40,11,18,253.8,1,0,51.67,0,0
+667,62293,343.31,Travel,San Francisco,In-store,Credit Card,43,19,5,441.56,1,1,81.91,1,0
+668,23834,532.71,Travel,Houston,Web,Credit Card,30,0,9,273.08,1,0,54.71,0,0
+669,4159,126.62,Entertainment,New York,Web,Bank Transfer,24,20,3,466.34,0,1,4.08,1,0
+670,62681,133.58,Clothing,Houston,Web,Bank Transfer,32,16,8,252.22,0,0,31.5,0,0
+671,20310,144.4,Grocery,Chicago,In-store,Bank Transfer,61,12,10,255.42,0,1,57.55,0,0
+672,6971,939.88,Dining,Houston,Mobile,Bank Transfer,44,0,19,77.48,0,0,95.06,1,0
+673,72475,733.17,Travel,Los Angeles,In-store,Bank Transfer,43,9,3,405.27,1,1,85.91,1,0
+674,46541,163.22,Grocery,Los Angeles,Mobile,Bank Transfer,50,14,11,138.54,1,0,22.84,0,0
+675,20385,189.16,Travel,Houston,Web,Debit Card,32,26,11,451.81,0,1,22.01,0,0
+676,18018,731.1,Dining,Los Angeles,Mobile,Bank Transfer,53,26,17,457.2,0,1,20.12,1,1
+677,75881,157.01,Travel,Chicago,In-store,Debit Card,62,29,16,472.79,1,0,92.25,1,0
+678,8703,235.33,Clothing,San Francisco,In-store,Debit Card,44,6,7,269.71,1,0,85.27,1,1
+679,385,963.38,Clothing,Los Angeles,Web,Bank Transfer,22,27,4,345.01,1,0,77.49,0,0
+680,405,256.05,Entertainment,Los Angeles,Mobile,Bank Transfer,19,21,19,393.69,1,0,39.27,1,0
+681,40944,661.97,Entertainment,Houston,Web,Debit Card,50,17,12,82.89,0,0,50.44,1,0
+682,47927,978.65,Travel,Chicago,Web,Debit Card,33,15,15,308.46,1,1,46.43,0,0
+683,29190,374.92,Grocery,San Francisco,In-store,Bank Transfer,40,13,11,36.46,1,0,25.34,1,0
+684,12764,18.5,Clothing,Houston,Mobile,Bank Transfer,55,26,5,258.83,1,0,50.5,1,0
+685,18385,244.9,Grocery,Houston,Mobile,Debit Card,33,27,5,94.32,1,1,3.05,1,1
+686,60101,831.05,Grocery,Seattle,Mobile,Debit Card,31,17,15,107.8,0,0,13.18,1,0
+687,9861,864.74,Travel,Chicago,Mobile,Debit Card,46,26,18,195.22,0,0,88.66,0,0
+688,80643,768.75,Grocery,San Francisco,Web,Credit Card,43,6,11,227.57,0,0,75.17,1,0
+689,50613,114.0,Clothing,Chicago,Web,Debit Card,52,16,12,319.12,0,1,42.29,1,0
+690,23575,795.71,Dining,San Francisco,In-store,Credit Card,32,28,2,55.73,0,0,51.72,1,0
+691,23525,918.76,Entertainment,Chicago,Web,Bank Transfer,20,17,15,261.77,0,1,37.0,1,1
+692,69173,601.01,Dining,Houston,Web,Bank Transfer,40,11,4,107.66,1,1,74.08,1,1
+693,10917,940.93,Grocery,Houston,In-store,Debit Card,46,7,18,295.51,1,0,78.42,1,1
+694,4810,827.01,Dining,New York,In-store,Bank Transfer,51,21,6,325.95,1,1,76.33,0,1
+695,32202,667.3,Clothing,Los Angeles,In-store,Bank Transfer,50,30,19,287.22,1,0,72.26,0,0
+696,53331,577.61,Clothing,Seattle,Web,Bank Transfer,58,29,11,374.38,0,0,20.45,0,0
+697,13457,349.23,Grocery,Chicago,Web,Bank Transfer,58,1,2,181.09,1,0,33.8,1,0
+698,56398,160.13,Travel,Seattle,In-store,Credit Card,40,6,8,387.25,0,0,46.98,1,1
+699,38766,605.35,Dining,New York,In-store,Credit Card,24,3,11,227.73,1,0,33.08,1,0
+700,34817,318.79,Travel,Los Angeles,In-store,Debit Card,20,17,5,252.41,1,1,75.49,0,0
+701,45107,866.57,Travel,Chicago,Web,Debit Card,49,27,18,331.09,1,1,32.94,1,0
+702,53933,993.34,Electronics,San Francisco,Web,Debit Card,48,5,18,28.81,0,1,13.82,0,0
+703,17101,752.68,Grocery,Los Angeles,Mobile,Bank Transfer,35,26,14,333.92,1,1,39.9,1,0
+704,57092,91.39,Entertainment,Houston,Web,Bank Transfer,60,30,10,316.92,0,0,97.99,1,0
+705,21950,289.4,Clothing,New York,Web,Credit Card,24,8,3,168.73,0,0,22.59,0,0
+706,70081,110.0,Clothing,Los Angeles,Web,Credit Card,58,26,9,61.18,1,1,61.22,0,0
+707,37745,650.86,Grocery,Los Angeles,In-store,Debit Card,18,8,3,63.65,0,0,43.3,0,0
+708,45544,765.43,Entertainment,Houston,Web,Credit Card,31,13,11,463.15,0,1,7.1,0,0
+709,36188,925.75,Clothing,Chicago,In-store,Credit Card,69,7,12,350.85,1,1,48.79,0,0
+710,7240,438.73,Grocery,San Francisco,Mobile,Credit Card,49,30,12,81.01,1,1,70.22,0,0
+711,14490,901.47,Clothing,Houston,Mobile,Credit Card,23,18,3,191.23,1,1,51.32,1,0
+712,58018,878.01,Travel,San Francisco,In-store,Credit Card,56,2,7,304.39,1,0,87.21,0,0
+713,61878,317.88,Dining,Chicago,In-store,Debit Card,27,17,14,421.07,1,0,28.89,1,0
+714,43126,869.03,Dining,Los Angeles,In-store,Debit Card,24,4,11,40.96,1,1,8.62,1,0
+715,49923,376.3,Clothing,San Francisco,Web,Credit Card,43,13,7,133.58,0,1,93.66,1,0
+716,32050,297.57,Electronics,New York,Mobile,Debit Card,51,27,10,447.08,1,1,37.82,1,0
+717,37132,649.43,Entertainment,New York,In-store,Bank Transfer,47,29,11,24.4,1,1,57.64,1,0
+718,42945,329.05,Entertainment,Houston,Web,Credit Card,53,3,15,116.67,0,1,79.2,0,0
+719,73964,630.58,Entertainment,Chicago,Mobile,Bank Transfer,38,6,19,480.33,1,0,32.43,0,0
+720,24286,610.22,Travel,Houston,Web,Debit Card,34,19,16,314.43,0,1,71.62,0,1
+721,37627,563.88,Entertainment,Houston,Mobile,Debit Card,50,24,12,145.6,1,1,13.54,1,0
+722,42809,381.04,Dining,Seattle,Web,Bank Transfer,27,27,18,52.16,1,0,29.13,0,0
+723,53872,548.95,Travel,Houston,Mobile,Debit Card,68,11,13,33.53,0,0,14.47,1,0
+724,19199,596.89,Grocery,Seattle,Mobile,Credit Card,64,1,5,137.48,1,0,81.12,1,0
+725,19759,546.14,Entertainment,New York,Web,Bank Transfer,59,10,4,443.11,0,0,22.26,1,0
+726,15255,444.98,Entertainment,New York,In-store,Credit Card,68,13,14,219.64,1,0,71.74,1,0
+727,44239,15.65,Grocery,Houston,Mobile,Bank Transfer,29,21,8,365.76,1,0,94.33,0,0
+728,1253,587.47,Entertainment,New York,In-store,Debit Card,33,30,9,460.78,0,0,52.78,0,0
+729,39765,169.28,Grocery,Chicago,Web,Bank Transfer,58,22,19,215.86,1,0,54.0,0,0
+730,77710,642.93,Travel,Seattle,In-store,Bank Transfer,49,15,3,111.81,1,0,46.1,0,0
+731,37442,759.58,Dining,Seattle,In-store,Credit Card,32,19,5,268.22,0,1,32.59,0,0
+732,53683,500.94,Grocery,Houston,In-store,Debit Card,44,28,18,455.88,1,0,47.57,1,0
+733,59495,542.82,Electronics,New York,In-store,Credit Card,45,5,1,406.1,0,1,60.28,0,1
+734,81318,951.53,Grocery,San Francisco,In-store,Debit Card,34,22,8,51.6,1,1,98.6,1,0
+735,65216,847.32,Entertainment,Seattle,Mobile,Credit Card,63,3,19,352.43,0,1,93.78,1,0
+736,78588,914.32,Travel,Houston,Mobile,Bank Transfer,67,14,17,294.51,1,1,86.22,1,0
+737,6950,813.95,Clothing,Houston,Mobile,Credit Card,19,23,17,455.58,0,1,88.91,0,0
+738,55394,109.81,Travel,Chicago,Web,Debit Card,53,24,11,78.79,0,1,46.78,1,0
+739,73554,149.84,Clothing,Los Angeles,In-store,Debit Card,67,0,2,276.34,1,1,65.74,1,0
+740,6942,527.1,Grocery,Los Angeles,Mobile,Bank Transfer,24,6,6,442.14,1,1,89.51,0,1
+741,25935,246.82,Dining,Seattle,Web,Debit Card,30,24,14,216.81,0,0,39.3,1,1
+742,23387,477.22,Electronics,Chicago,Mobile,Credit Card,32,30,3,251.36,1,1,96.18,1,0
+743,61887,394.97,Travel,Chicago,Mobile,Bank Transfer,42,11,12,53.82,0,1,41.58,1,0
+744,75746,549.86,Entertainment,Chicago,In-store,Debit Card,40,9,4,153.51,1,1,60.11,0,0
+745,83252,747.13,Clothing,Seattle,Web,Debit Card,39,4,12,175.76,1,1,70.98,1,0
+746,53414,715.78,Entertainment,Los Angeles,In-store,Credit Card,43,11,13,473.66,0,0,95.06,1,0
+747,56801,521.71,Dining,Chicago,In-store,Credit Card,50,17,2,155.68,0,1,24.46,0,0
+748,42319,822.57,Clothing,New York,Mobile,Bank Transfer,28,9,2,241.22,1,0,74.61,0,0
+749,70174,431.43,Travel,Houston,In-store,Debit Card,27,5,15,342.23,1,0,52.08,1,0
+750,70391,896.82,Grocery,Houston,Web,Credit Card,42,27,17,97.85,1,1,26.86,0,0
+751,52330,72.21,Entertainment,San Francisco,In-store,Bank Transfer,54,11,7,253.49,1,1,77.66,0,0
+752,43089,954.71,Dining,San Francisco,In-store,Debit Card,65,6,14,374.5,1,0,55.22,0,1
+753,39812,655.04,Travel,Seattle,In-store,Debit Card,60,17,12,436.09,0,1,66.1,0,0
+754,55480,380.69,Travel,Seattle,Mobile,Bank Transfer,70,1,17,320.6,1,1,32.29,0,0
+755,85393,197.96,Travel,Houston,Web,Bank Transfer,55,9,14,341.15,1,0,48.13,0,0
+756,19964,479.7,Travel,New York,Mobile,Credit Card,58,14,6,80.62,0,0,61.74,0,0
+757,55124,195.36,Clothing,Los Angeles,Mobile,Debit Card,62,29,19,473.97,0,1,40.49,1,0
+758,73478,167.17,Travel,Los Angeles,Mobile,Debit Card,41,11,6,83.64,0,1,19.84,0,0
+759,14389,617.73,Entertainment,Seattle,Mobile,Debit Card,57,25,18,391.84,1,1,96.16,0,0
+760,5570,523.56,Dining,New York,Mobile,Bank Transfer,63,16,5,147.11,0,0,51.15,0,1
+761,69837,670.43,Clothing,Seattle,Web,Credit Card,50,3,6,468.12,0,1,73.39,1,0
+762,36587,929.68,Travel,Los Angeles,In-store,Debit Card,34,6,2,365.58,0,0,41.1,0,0
+763,12016,532.73,Electronics,Seattle,Mobile,Bank Transfer,41,29,8,381.83,0,0,35.51,0,0
+764,45003,581.35,Electronics,Chicago,Mobile,Debit Card,54,8,15,125.15,1,1,40.72,1,0
+765,6255,90.54,Dining,Seattle,Web,Credit Card,19,30,15,232.66,1,0,40.92,0,1
+766,17145,717.92,Grocery,Houston,Web,Debit Card,49,18,11,316.55,1,1,54.42,1,0
+767,24215,400.51,Grocery,Seattle,In-store,Credit Card,41,27,1,389.59,0,1,54.35,1,1
+768,80720,976.75,Clothing,Houston,Web,Credit Card,26,26,18,69.9,0,0,49.72,0,0
+769,71775,823.35,Clothing,New York,In-store,Debit Card,21,22,12,481.94,0,1,13.48,1,0
+770,6091,522.96,Clothing,Los Angeles,Mobile,Debit Card,34,6,12,447.31,0,0,49.61,0,0
+771,11638,124.1,Grocery,San Francisco,Mobile,Credit Card,34,22,11,149.77,0,0,16.91,0,0
+772,22416,859.56,Electronics,San Francisco,In-store,Bank Transfer,70,1,8,414.92,0,1,12.61,1,1
+773,24072,799.98,Grocery,Los Angeles,Web,Credit Card,67,5,7,268.8,1,1,93.26,1,0
+774,58244,185.4,Entertainment,San Francisco,In-store,Debit Card,65,17,2,241.67,1,1,60.5,0,0
+775,41241,295.98,Travel,Seattle,Web,Debit Card,47,5,11,170.93,0,1,65.95,0,0
+776,83808,793.61,Clothing,New York,Mobile,Bank Transfer,57,12,10,298.86,1,0,40.18,1,0
+777,33435,186.04,Electronics,New York,Web,Credit Card,28,25,3,370.35,0,0,90.9,0,0
+778,69725,917.83,Dining,Los Angeles,In-store,Credit Card,38,18,10,217.25,0,0,63.79,0,0
+779,75698,425.1,Dining,San Francisco,In-store,Credit Card,38,29,18,322.03,1,1,76.92,0,0
+780,28733,87.95,Travel,Seattle,Mobile,Debit Card,35,1,14,355.67,0,0,36.86,1,0
+781,11315,815.93,Electronics,New York,Web,Credit Card,46,11,18,361.34,1,0,96.0,0,0
+782,23955,374.14,Grocery,New York,Web,Bank Transfer,41,14,8,44.94,0,1,82.05,0,0
+783,57109,526.97,Grocery,Chicago,Web,Debit Card,27,13,10,432.68,0,1,85.39,0,0
+784,36669,113.19,Entertainment,Chicago,Mobile,Debit Card,62,5,13,239.96,1,1,17.22,1,0
+785,23062,3.58,Entertainment,New York,Web,Credit Card,34,17,8,145.96,0,0,27.1,1,0
+786,79253,638.35,Grocery,Los Angeles,In-store,Bank Transfer,35,4,4,136.05,0,1,28.56,1,0
+787,39750,515.66,Dining,Houston,Web,Debit Card,59,17,4,251.85,0,0,27.09,0,1
+788,16908,593.95,Clothing,Houston,Mobile,Debit Card,65,2,5,445.68,1,0,85.54,1,0
+789,18778,793.95,Dining,Seattle,Web,Credit Card,37,2,1,201.61,0,0,3.19,0,0
+790,51746,646.96,Entertainment,New York,Web,Credit Card,54,21,17,379.87,0,0,7.61,1,0
+791,81819,175.6,Travel,New York,In-store,Bank Transfer,62,21,2,66.47,0,0,27.39,0,0
+792,23625,361.41,Grocery,New York,Web,Credit Card,35,9,8,248.51,1,1,19.99,1,0
+793,23322,905.99,Entertainment,Los Angeles,In-store,Bank Transfer,34,18,7,496.01,1,0,23.19,0,0
+794,10489,770.17,Entertainment,Chicago,In-store,Debit Card,26,2,15,389.81,1,1,79.79,0,0
+795,22575,557.08,Clothing,New York,Mobile,Bank Transfer,31,28,5,121.05,1,0,56.31,1,0
+796,5241,256.39,Grocery,New York,In-store,Bank Transfer,66,11,2,260.69,1,0,0.58,0,0
+797,43222,302.76,Clothing,San Francisco,In-store,Bank Transfer,46,28,7,132.14,0,1,42.93,1,0
+798,10479,732.23,Grocery,Los Angeles,Mobile,Debit Card,48,15,8,216.59,1,0,40.79,1,1
+799,55646,851.32,Clothing,Seattle,In-store,Credit Card,21,16,7,394.44,1,0,11.39,0,0
+800,19263,671.75,Dining,New York,Mobile,Debit Card,35,6,7,390.19,0,1,67.61,0,0
+801,52797,809.72,Travel,San Francisco,Web,Credit Card,37,12,14,129.49,1,1,70.21,1,0
+802,4433,766.89,Travel,Houston,Mobile,Bank Transfer,64,23,18,462.67,0,0,72.09,1,0
+803,64292,150.55,Grocery,Seattle,In-store,Bank Transfer,60,1,6,304.43,1,0,72.85,1,0
+804,79105,424.52,Electronics,New York,Mobile,Bank Transfer,61,3,4,202.36,0,0,0.01,0,0
+805,59400,153.83,Entertainment,New York,In-store,Bank Transfer,26,9,10,260.93,0,1,95.39,1,0
+806,79715,236.0,Entertainment,San Francisco,Web,Bank Transfer,30,6,18,310.43,1,0,81.42,0,0
+807,50429,869.39,Grocery,Los Angeles,Mobile,Credit Card,32,23,12,288.75,1,1,90.4,0,0
+808,303,473.42,Clothing,New York,Web,Credit Card,44,16,16,253.47,0,1,1.56,1,0
+809,82559,535.82,Electronics,Houston,In-store,Bank Transfer,32,19,7,262.37,0,0,93.39,1,1
+810,56,179.27,Dining,New York,In-store,Debit Card,45,5,6,104.68,0,1,80.98,0,0
+811,8718,312.96,Clothing,Houston,Web,Debit Card,54,18,5,410.11,0,0,83.72,0,0
+812,28700,231.02,Clothing,Seattle,Mobile,Bank Transfer,36,4,3,280.04,0,0,9.33,0,0
+813,73687,206.98,Grocery,Seattle,Mobile,Credit Card,43,9,12,82.92,0,1,73.88,0,1
+814,67662,638.32,Grocery,Chicago,In-store,Debit Card,69,8,15,387.76,0,1,95.99,1,0
+815,44248,257.63,Entertainment,Chicago,Web,Debit Card,43,26,10,467.57,1,1,67.85,0,0
+816,16749,632.38,Grocery,Houston,Web,Debit Card,42,12,19,474.71,0,1,57.06,1,0
+817,4622,59.4,Grocery,Los Angeles,Mobile,Bank Transfer,43,18,16,197.13,1,1,94.56,1,0
+818,15035,142.63,Grocery,New York,Mobile,Debit Card,43,20,11,85.05,1,1,44.29,1,0
+819,5127,275.27,Entertainment,New York,Mobile,Debit Card,63,23,8,268.83,0,0,59.93,0,0
+820,5123,597.45,Dining,Chicago,Web,Debit Card,45,5,3,74.05,0,0,47.63,0,1
+821,18031,676.17,Dining,Houston,Mobile,Debit Card,66,3,7,468.31,1,0,93.28,1,0
+822,82839,443.27,Grocery,New York,Mobile,Credit Card,35,23,7,108.12,0,1,7.61,1,0
+823,84718,446.35,Entertainment,New York,In-store,Bank Transfer,49,26,14,141.33,0,1,50.11,1,0
+824,55659,724.79,Dining,Los Angeles,Mobile,Bank Transfer,70,2,2,215.19,1,1,68.7,1,0
+825,38639,16.81,Clothing,San Francisco,Mobile,Credit Card,20,2,10,203.92,1,0,79.19,0,0
+826,67068,341.75,Dining,Chicago,Web,Credit Card,19,3,19,401.44,1,0,58.3,1,0
+827,34675,818.89,Dining,Chicago,Web,Bank Transfer,50,24,9,239.03,0,1,90.89,0,0
+828,35855,603.62,Entertainment,San Francisco,In-store,Debit Card,59,4,16,101.97,0,1,94.2,0,0
+829,46272,337.89,Clothing,New York,Mobile,Debit Card,36,7,19,148.26,1,1,6.43,0,1
+830,73689,905.62,Entertainment,Los Angeles,In-store,Bank Transfer,34,15,18,264.37,0,1,40.24,0,0
+831,38519,772.85,Grocery,Los Angeles,Web,Debit Card,61,21,9,90.78,1,0,2.35,1,1
+832,10268,265.63,Travel,Chicago,In-store,Credit Card,50,2,16,313.59,0,0,32.94,0,0
+833,1063,645.64,Dining,Los Angeles,Web,Debit Card,29,30,13,291.56,1,0,53.69,1,0
+834,50449,596.15,Travel,Seattle,In-store,Debit Card,66,23,10,363.06,0,1,91.08,0,0
+835,6230,401.79,Entertainment,San Francisco,In-store,Debit Card,20,11,14,470.1,1,0,84.66,1,0
+836,56794,367.59,Entertainment,New York,Mobile,Bank Transfer,60,24,12,457.88,0,1,12.75,1,0
+837,47916,344.22,Entertainment,Seattle,In-store,Credit Card,66,7,19,474.12,0,1,9.3,1,0
+838,4633,617.54,Travel,San Francisco,Mobile,Debit Card,43,12,7,137.46,1,1,58.93,1,0
+839,3597,442.97,Entertainment,Houston,Mobile,Bank Transfer,52,3,15,83.15,0,0,53.21,1,0
+840,6169,832.03,Grocery,Chicago,Mobile,Debit Card,25,13,16,165.09,0,0,26.64,0,0
+841,7562,669.93,Entertainment,Los Angeles,Mobile,Credit Card,69,13,8,449.64,1,1,89.95,1,0
+842,73795,70.86,Electronics,Houston,In-store,Debit Card,53,12,10,486.59,0,0,92.74,0,0
+843,82153,640.53,Travel,Los Angeles,Web,Credit Card,70,26,4,432.48,0,1,40.26,1,0
+844,26735,271.88,Electronics,Seattle,Web,Debit Card,24,5,19,72.81,0,1,89.03,0,0
+845,6372,593.22,Entertainment,New York,Web,Credit Card,63,16,19,474.77,1,1,38.39,0,0
+846,26070,680.45,Grocery,New York,In-store,Debit Card,63,3,15,223.21,1,0,73.68,0,0
+847,79906,231.6,Dining,New York,Mobile,Credit Card,53,7,14,24.47,1,0,47.59,1,0
+848,12911,457.4,Clothing,Los Angeles,Web,Debit Card,33,16,1,232.35,1,1,12.26,0,0
+849,73480,191.13,Clothing,Houston,In-store,Debit Card,41,2,16,42.11,1,0,92.79,1,0
+850,77736,53.29,Entertainment,New York,Mobile,Bank Transfer,18,16,10,281.06,0,0,45.41,1,0
+851,81265,379.1,Grocery,Houston,Web,Bank Transfer,66,8,19,182.51,0,0,73.45,0,0
+852,23276,363.58,Travel,Los Angeles,Mobile,Credit Card,42,1,3,247.25,1,0,36.72,0,0
+853,72275,995.49,Electronics,Seattle,Web,Debit Card,27,24,5,314.32,0,1,1.89,1,0
+854,81450,446.91,Electronics,Houston,Web,Credit Card,33,12,9,437.02,0,0,10.05,1,0
+855,60005,334.24,Electronics,Seattle,Web,Bank Transfer,33,19,18,337.71,0,1,49.62,1,0
+856,62982,580.89,Travel,Los Angeles,Mobile,Credit Card,25,1,11,228.34,0,1,69.0,1,0
+857,84660,89.68,Clothing,Los Angeles,In-store,Credit Card,46,19,16,413.33,1,0,33.47,1,0
+858,54554,961.7,Grocery,Chicago,Mobile,Bank Transfer,56,27,2,454.68,1,1,69.55,1,0
+859,48448,635.33,Travel,Los Angeles,Web,Debit Card,45,10,12,77.48,0,1,69.86,0,0
+860,34530,755.08,Electronics,Los Angeles,Mobile,Credit Card,23,26,6,275.33,0,0,70.39,1,0
+861,75704,171.31,Entertainment,San Francisco,In-store,Bank Transfer,33,25,11,156.57,1,1,49.25,1,0
+862,76091,410.07,Dining,New York,Mobile,Debit Card,37,21,8,42.59,0,1,91.49,0,0
+863,17261,423.27,Travel,Chicago,In-store,Bank Transfer,33,14,12,340.9,0,0,48.92,0,0
+864,3813,821.98,Travel,Chicago,In-store,Credit Card,24,10,2,434.13,0,0,45.03,0,0
+865,28025,2.24,Grocery,Chicago,Mobile,Debit Card,58,22,9,98.19,1,0,19.94,1,0
+866,58657,301.55,Grocery,San Francisco,Web,Debit Card,31,2,15,409.96,1,0,30.77,0,0
+867,27286,981.26,Travel,Seattle,In-store,Bank Transfer,60,2,2,429.63,0,0,4.23,0,0
+868,1606,475.41,Electronics,Los Angeles,Mobile,Bank Transfer,43,27,1,458.88,0,1,63.35,1,0
+869,71159,383.14,Dining,New York,In-store,Bank Transfer,43,25,10,147.34,0,1,24.85,1,0
+870,72304,120.71,Grocery,Houston,Web,Debit Card,31,11,2,453.9,0,0,30.42,1,0
+871,27140,974.19,Electronics,Seattle,Mobile,Debit Card,24,23,12,173.92,0,0,77.08,1,0
+872,77150,21.01,Entertainment,Los Angeles,Mobile,Credit Card,50,4,8,285.12,0,1,32.72,0,0
+873,56139,737.44,Grocery,San Francisco,Mobile,Debit Card,43,19,5,44.24,1,0,24.22,1,0
+874,76126,768.83,Electronics,Los Angeles,Web,Credit Card,62,6,1,41.06,1,0,16.91,0,0
+875,13919,244.41,Electronics,Los Angeles,In-store,Bank Transfer,37,6,15,365.78,0,1,77.49,1,0
+876,85656,671.89,Dining,San Francisco,Mobile,Bank Transfer,20,12,6,233.35,1,1,12.97,0,0
+877,27447,93.84,Dining,Chicago,In-store,Debit Card,69,8,12,143.02,0,1,45.38,1,0
+878,13047,257.79,Entertainment,Chicago,In-store,Bank Transfer,21,24,8,111.4,0,0,50.69,1,0
+879,24819,788.11,Electronics,New York,Web,Bank Transfer,43,20,13,341.58,1,1,68.74,1,0
+880,4325,864.82,Clothing,New York,Mobile,Debit Card,28,12,19,20.19,1,0,63.33,0,0
+881,76324,608.88,Electronics,Chicago,In-store,Credit Card,19,11,1,406.83,0,1,81.07,0,0
+882,9112,507.33,Dining,Seattle,Mobile,Debit Card,31,12,11,58.04,0,0,4.48,0,0
+883,38111,160.14,Clothing,Houston,Mobile,Credit Card,61,23,1,111.92,1,0,29.64,1,0
+884,16390,64.05,Grocery,Los Angeles,Web,Debit Card,47,9,8,205.39,1,0,28.01,0,0
+885,41428,118.53,Grocery,Houston,Mobile,Debit Card,66,0,5,252.73,0,1,14.6,1,0
+886,79580,228.13,Travel,Los Angeles,Mobile,Bank Transfer,29,24,17,190.4,0,1,28.92,1,0
+887,28747,342.33,Dining,Chicago,In-store,Debit Card,43,7,8,173.94,0,1,30.98,1,0
+888,118,381.53,Travel,New York,Web,Debit Card,61,21,10,482.68,1,0,52.19,0,0
+889,84472,346.98,Clothing,Seattle,Mobile,Credit Card,50,15,2,327.96,0,1,66.37,1,0
+890,13235,239.82,Dining,New York,In-store,Bank Transfer,30,12,9,31.25,1,1,38.11,0,0
+891,53442,510.21,Entertainment,Houston,Web,Credit Card,31,2,3,226.48,0,0,71.95,1,0
+892,847,825.46,Electronics,New York,Web,Credit Card,41,2,18,440.0,1,0,33.62,1,0
+893,10955,280.42,Entertainment,Chicago,In-store,Bank Transfer,51,23,7,164.7,1,1,29.03,1,0
+894,79240,942.44,Clothing,Seattle,In-store,Bank Transfer,61,4,15,65.39,1,1,54.12,0,0
+895,46515,873.46,Dining,Houston,In-store,Bank Transfer,43,25,18,384.02,1,1,2.37,0,0
+896,6470,162.6,Clothing,Seattle,In-store,Debit Card,38,10,3,310.89,0,0,7.98,1,0
+897,30106,786.49,Electronics,Los Angeles,In-store,Bank Transfer,45,29,14,293.75,1,1,41.8,0,1
+898,42102,575.01,Grocery,New York,Mobile,Bank Transfer,65,6,2,45.72,1,0,94.29,0,0
+899,64324,567.01,Grocery,Seattle,Mobile,Bank Transfer,53,20,14,87.44,1,0,72.15,1,1
+900,58068,391.65,Clothing,San Francisco,Web,Credit Card,57,23,11,318.82,0,1,8.81,1,0
+901,49377,501.65,Travel,New York,Mobile,Credit Card,19,9,16,119.76,0,1,84.63,0,0
+902,45588,397.78,Dining,Los Angeles,Mobile,Debit Card,59,9,8,261.95,0,0,73.23,1,0
+903,36977,540.19,Dining,Seattle,Mobile,Credit Card,26,19,7,281.54,0,0,61.09,1,0
+904,67585,628.32,Grocery,Houston,In-store,Debit Card,40,1,11,156.08,0,1,82.03,0,0
+905,78478,674.63,Entertainment,Los Angeles,Web,Credit Card,32,2,3,475.24,0,1,40.41,0,0
+906,42534,532.95,Electronics,San Francisco,Web,Bank Transfer,30,7,17,424.38,1,1,22.15,1,0
+907,1829,721.7,Entertainment,Seattle,Web,Credit Card,40,30,14,366.74,1,0,51.2,0,0
+908,1918,142.14,Entertainment,Chicago,Web,Debit Card,34,10,6,57.44,1,0,54.88,0,0
+909,20619,212.77,Clothing,New York,Mobile,Credit Card,65,12,8,70.94,0,1,53.83,1,0
+910,32255,818.92,Grocery,Houston,Mobile,Bank Transfer,19,6,5,256.54,1,0,56.51,1,0
+911,47363,323.21,Grocery,Chicago,In-store,Debit Card,37,12,8,97.14,1,0,94.87,1,0
+912,20129,23.87,Grocery,Seattle,Web,Bank Transfer,37,1,2,489.57,0,1,90.22,1,0
+913,59384,154.64,Clothing,Seattle,Mobile,Bank Transfer,63,5,15,96.09,1,0,87.57,0,0
+914,65546,224.39,Travel,Los Angeles,Mobile,Debit Card,20,8,12,253.98,0,1,80.14,0,0
+915,82181,957.37,Entertainment,Seattle,In-store,Bank Transfer,29,30,17,194.78,1,1,94.34,1,0
+916,9866,573.47,Clothing,Houston,In-store,Bank Transfer,57,19,1,326.91,0,0,9.85,1,0
+917,2220,932.8,Dining,Chicago,In-store,Credit Card,19,24,15,81.94,0,0,26.51,1,0
+918,39810,575.59,Electronics,Houston,Mobile,Bank Transfer,53,1,14,226.55,0,1,49.51,1,0
+919,5288,479.88,Travel,San Francisco,Mobile,Bank Transfer,31,17,16,151.86,1,0,84.65,0,0
+920,34388,314.41,Dining,San Francisco,In-store,Bank Transfer,33,15,9,446.12,1,1,50.52,0,1
+921,8513,606.76,Entertainment,New York,Web,Bank Transfer,36,24,1,39.48,0,0,74.8,1,1
+922,1343,140.06,Grocery,New York,In-store,Debit Card,51,11,17,458.59,0,0,13.9,1,0
+923,63077,898.36,Entertainment,San Francisco,In-store,Credit Card,61,6,13,419.84,1,0,25.24,0,0
+924,19217,829.5,Clothing,Seattle,In-store,Bank Transfer,63,6,5,162.83,1,1,73.18,0,0
+925,79768,318.21,Electronics,Houston,In-store,Bank Transfer,23,16,10,398.86,0,0,16.47,0,0
+926,26615,952.84,Clothing,San Francisco,Mobile,Debit Card,30,12,6,34.98,1,1,35.14,0,0
+927,36259,825.38,Travel,New York,Web,Bank Transfer,53,10,19,484.1,1,1,26.49,1,0
+928,42079,666.64,Travel,San Francisco,In-store,Debit Card,39,5,13,272.77,1,1,34.99,0,0
+929,83525,122.64,Electronics,Seattle,Web,Credit Card,35,28,1,165.57,0,0,70.83,0,0
+930,12220,478.76,Dining,San Francisco,Web,Credit Card,29,22,15,194.04,0,1,36.78,0,0
+931,236,506.6,Dining,Houston,Web,Bank Transfer,69,26,14,51.87,1,1,55.53,1,0
+932,42930,233.32,Travel,Chicago,In-store,Bank Transfer,47,13,8,494.89,0,0,9.99,1,0
+933,67445,80.89,Travel,Seattle,Mobile,Bank Transfer,70,5,10,38.86,1,1,80.5,0,0
+934,8568,776.95,Grocery,New York,In-store,Debit Card,68,5,9,334.36,1,1,36.99,0,0
+935,70793,122.91,Dining,Houston,Web,Bank Transfer,57,1,17,232.51,0,0,64.85,1,0
+936,65442,594.7,Electronics,San Francisco,Web,Bank Transfer,24,21,9,475.48,0,1,72.54,1,0
+937,84556,936.51,Dining,San Francisco,Mobile,Credit Card,49,19,3,138.08,0,0,20.97,0,0
+938,73699,876.23,Grocery,Chicago,In-store,Bank Transfer,65,24,11,275.4,1,1,88.47,1,0
+939,5416,278.47,Clothing,New York,Web,Credit Card,36,14,12,251.53,1,1,61.62,0,1
+940,36160,851.6,Travel,New York,Mobile,Bank Transfer,23,27,10,357.38,0,0,42.87,1,0
+941,43926,1.33,Travel,Los Angeles,Web,Credit Card,37,16,17,52.64,0,1,18.23,0,0
+942,5952,18.67,Grocery,New York,Mobile,Bank Transfer,44,28,17,113.02,0,1,94.23,0,0
+943,8008,602.95,Electronics,Chicago,Mobile,Credit Card,70,7,11,122.99,1,1,75.51,1,0
+944,41833,365.43,Travel,Los Angeles,In-store,Debit Card,60,4,4,374.31,1,0,20.8,0,1
+945,58597,387.07,Entertainment,Los Angeles,Web,Credit Card,54,16,7,110.79,1,0,33.77,1,0
+946,30524,564.88,Travel,San Francisco,In-store,Credit Card,65,19,14,295.28,0,0,80.97,1,0
+947,15525,192.59,Entertainment,San Francisco,Web,Credit Card,24,0,7,123.32,0,0,69.57,1,0
+948,19283,212.54,Grocery,New York,In-store,Bank Transfer,22,21,8,433.58,1,0,76.58,0,0
+949,23931,485.12,Grocery,Los Angeles,Web,Bank Transfer,28,17,1,472.25,0,1,44.12,0,0
+950,78,754.5,Travel,San Francisco,In-store,Bank Transfer,32,14,4,268.88,0,0,71.65,0,0
+951,20612,619.88,Dining,Chicago,Mobile,Debit Card,20,4,12,189.11,0,0,38.65,1,0
+952,16985,298.06,Entertainment,San Francisco,Web,Debit Card,22,6,3,132.35,0,0,21.13,0,1
+953,14061,430.91,Electronics,Seattle,Web,Credit Card,40,17,13,43.89,1,1,63.27,0,0
+954,82986,171.49,Travel,Seattle,Mobile,Debit Card,70,5,6,148.88,0,1,97.6,0,0
+955,84057,75.56,Electronics,San Francisco,In-store,Credit Card,54,21,11,334.03,1,0,31.06,0,0
+956,43304,782.91,Travel,Los Angeles,Web,Credit Card,26,20,4,276.14,1,1,46.1,1,0
+957,59208,266.12,Dining,Los Angeles,Web,Credit Card,32,4,16,473.14,0,1,67.4,0,0
+958,75047,178.59,Dining,Houston,In-store,Debit Card,20,29,7,210.21,1,1,54.15,1,0
+959,29288,691.93,Dining,Seattle,Mobile,Bank Transfer,46,18,11,353.05,1,1,84.34,1,0
+960,39712,618.43,Clothing,Chicago,In-store,Debit Card,23,30,1,254.87,0,0,76.17,1,0
+961,11955,633.56,Dining,Los Angeles,In-store,Credit Card,34,9,7,266.04,1,0,5.83,1,0
+962,73341,229.67,Grocery,New York,In-store,Credit Card,43,14,12,148.53,1,1,99.84,0,0
+963,72102,233.41,Grocery,Seattle,Web,Debit Card,38,9,7,238.38,1,1,75.24,0,0
+964,71521,221.58,Clothing,Chicago,Mobile,Credit Card,25,26,7,245.98,1,1,86.39,0,0
+965,18575,174.58,Entertainment,Chicago,Mobile,Credit Card,38,15,10,359.19,1,1,65.12,1,1
+966,9185,656.07,Electronics,Los Angeles,In-store,Debit Card,28,11,16,471.51,1,0,85.63,0,0
+967,19097,848.17,Travel,Chicago,Web,Debit Card,55,17,8,178.07,1,1,11.24,1,0
+968,67729,724.59,Travel,Los Angeles,In-store,Debit Card,25,22,9,40.26,1,0,34.77,0,0
+969,34017,792.3,Clothing,San Francisco,Web,Credit Card,59,0,9,258.22,0,1,87.64,0,0
+970,11247,405.39,Grocery,Seattle,Web,Credit Card,41,15,2,281.34,0,0,20.17,0,0
+971,45559,654.42,Travel,Houston,Web,Bank Transfer,52,21,13,100.85,0,1,7.82,1,0
+972,18382,354.88,Grocery,San Francisco,Web,Bank Transfer,31,5,13,385.02,1,0,78.81,0,0
+973,36456,525.98,Entertainment,Seattle,Mobile,Debit Card,31,2,4,492.77,1,0,83.55,1,0
+974,4019,482.15,Electronics,Los Angeles,Web,Bank Transfer,27,1,12,473.97,1,0,16.27,1,0
+975,11303,177.71,Entertainment,Seattle,Web,Credit Card,29,27,17,114.61,0,1,85.43,1,0
+976,67507,387.69,Clothing,Los Angeles,In-store,Bank Transfer,55,1,2,440.17,0,0,68.68,0,0
+977,41158,963.86,Dining,San Francisco,In-store,Credit Card,61,29,13,358.16,0,1,52.01,0,1
+978,54918,249.33,Dining,New York,Mobile,Debit Card,63,12,18,237.85,1,0,83.03,1,0
+979,83123,134.67,Dining,New York,In-store,Debit Card,51,8,15,279.49,0,0,41.92,1,0
+980,24520,419.16,Entertainment,Seattle,Web,Credit Card,58,15,8,427.81,0,1,19.4,1,0
+981,56820,790.55,Travel,New York,In-store,Bank Transfer,27,26,15,250.46,1,0,28.49,1,0
+982,80911,582.57,Electronics,Los Angeles,Mobile,Debit Card,34,4,1,199.14,0,1,50.52,1,1
+983,71325,681.29,Dining,Chicago,In-store,Debit Card,34,22,10,256.76,1,1,53.13,0,0
+984,5409,190.51,Clothing,Los Angeles,In-store,Bank Transfer,20,27,12,297.98,0,1,80.56,0,0
+985,59380,619.33,Clothing,Chicago,Mobile,Bank Transfer,48,20,5,110.76,1,1,79.14,0,0
+986,25054,324.18,Dining,San Francisco,Mobile,Credit Card,68,6,9,452.44,1,0,58.14,1,0
+987,9447,834.47,Dining,Houston,Web,Bank Transfer,18,12,8,343.61,1,0,78.08,1,0
+988,923,629.67,Electronics,Chicago,In-store,Bank Transfer,29,19,16,323.97,1,1,19.18,0,0
+989,51357,199.66,Dining,New York,Web,Bank Transfer,56,23,14,67.76,1,0,5.01,0,0
+990,10790,65.55,Electronics,Los Angeles,In-store,Credit Card,21,28,13,310.0,0,0,87.36,1,0
+991,66657,43.59,Clothing,San Francisco,In-store,Credit Card,59,26,13,78.06,1,1,7.56,1,1
+992,44029,372.04,Dining,New York,Web,Debit Card,30,29,5,57.77,1,0,24.67,1,0
+993,64485,266.59,Entertainment,San Francisco,In-store,Credit Card,51,25,16,273.11,1,1,69.53,0,0
+994,32155,646.44,Entertainment,Houston,In-store,Debit Card,59,12,11,213.34,1,0,40.94,1,0
+995,82871,499.83,Clothing,Los Angeles,In-store,Bank Transfer,38,26,5,302.63,0,0,87.63,1,0
+996,2337,266.75,Electronics,Seattle,Mobile,Debit Card,39,25,13,62.83,1,1,29.8,1,1
+997,67780,150.09,Entertainment,Los Angeles,Web,Debit Card,21,6,11,226.87,0,0,1.19,0,0
+998,19030,128.07,Electronics,Houston,Mobile,Bank Transfer,35,9,19,103.9,1,0,30.07,1,0
+999,59202,864.8,Entertainment,Los Angeles,Web,Debit Card,22,14,3,493.81,1,1,57.81,0,0
+1000,32266,244.23,Entertainment,Seattle,Web,Credit Card,36,20,15,289.35,0,0,37.59,1,0

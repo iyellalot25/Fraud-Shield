@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FraudShield</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .logo {
+            width: 100px; /* Adjust logo size */
+            animation: fadeIn 2s; /* Animation for logo */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            animation: slideIn 2s; /* Animation for title */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/static/fraudshield_logo.png" alt="FraudShield Logo" class="logo">
+        <h1>Welcome to FraudShield</h1>
+        <p>This system helps detect fraudulent transactions in real-time.</p>
+        <a href="/form" class="btn">Test a Transaction</a>
+    </div>
+</body>
+</html>

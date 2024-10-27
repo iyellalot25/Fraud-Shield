@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test a Transaction - FraudShield</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9ecef;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            animation: fadeIn 1s;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            width: 90%;
+            max-width: 600px;
+            animation: slideIn 1s;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            animation: fadeInDown 1s;
+        }
+
+        label {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #495057;
+            display: block;
+        }
+
+        input[type="number"], select {
+            width: calc(100% - 20px);
+            padding: 12px;
+            border: 2px solid #ced4da;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            font-size: 1em;
+        }
+
+        input[type="number"]:focus, select:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FraudShield - Test a Transaction</h1>
+        <form action="/predict" method="POST">
+            <label for="timestamp">Timestamp:</label>
+            <input type="number" step="any" name="timestamp" required><br>
+
+            <label for="amount">Amount:</label>
+            <input type="number" step="any" name="amount" required><br>
+
+            <label for="merchant_category">Merchant Category:</label>
+            <select name="merchant_category" required>
+                <option value="Grocery">Grocery</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Dining">Dining</option>
+                <option value="Travel">Travel</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Clothing">Clothing</option>
+            </select><br>
+
+            <label for="transaction_location">Transaction Location:</label>
+            <select name="transaction_location" required>
+                <option value="New York">New York</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Houston">Houston</option>
+                <option value="Seattle">Seattle</option>
+            </select><br>
+
+            <label for="device_type">Device Type:</label>
+            <select name="device_type" required>
+                <option value="Mobile">Mobile</option>
+                <option value="Web">Web</option>
+                <option value="In-store">In-store</option>
+            </select><br>
+
+            <label for="payment_type">Payment Type:</label>
+            <select name="payment_type" required>
+                <option value="Credit Card">Credit Card</option>
+                <option value="Debit Card">Debit Card</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+            </select><br>
+
+            <label for="customer_age">Customer Age:</label>
+            <input type="number" name="customer_age" required><br>
+
+            <label for="days_since_last_transaction">Days Since Last Transaction:</label>
+            <input type="number" name="days_since_last_transaction" required><br>
+
+            <label for="transaction_frequency">Transaction Frequency (last 30 days):</label>
+            <input type="number" name="transaction_frequency" required><br>
+
+            <label for="average_transaction_amount">Average Transaction Amount:</label>
+            <input type="number" step="any" name="average_transaction_amount" required><br>
+
+            <label for="is_weekend">Is Weekend:</label>
+            <select name="is_weekend" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select><br>
+
+            <label for="is_night">Is Night:</label>
+            <select name="is_night" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select><br>
+
+            <label for="distance_from_home">Distance from Home (miles):</label>
+            <input type="number" step="any" name="distance_from_home" required><br>
+
+            <label for="previous_fraud_flag">Previous Fraud Flag:</label>
+            <select name="previous_fraud_flag" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select><br>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
