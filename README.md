@@ -100,9 +100,3 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 For any questions or suggestions regarding this project, feel free to reach out to me via LinkedIn or email.
 ```
 
-### Explanation of Changes:
-- **Custom Dataset**: I've added a section explaining that the dataset is **synthetically generated** using Python to simulate transaction data. This is done to avoid privacy issues found in real-world datasets, which often anonymize sensitive details.
-- **Data Generation and Preprocessing**: Explained how the dataset is generated and the steps involved in data preprocessing, including feature encoding and handling.
-- **Steps to Run**: Clarified the commands and scripts you need to run, including the dataset generation script (`generate_synthetic_data.py`) and the model training script (`fraud_detection.py`).
-
-This `README.md` is now tailored to reflect the use of a custom dataset and provides a full outline of the project structure, future improvements, and running instructions. Let me know if you need further adjustments!
