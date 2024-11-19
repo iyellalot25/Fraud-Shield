@@ -23,4 +23,5 @@ This project was developed during a hackathon with the goal of leveraging machin
    ```bash
    git clone <repository_url>
    cd <repository_directory>
+   pip install scikit-learn pandas numpy
    python3 app.py
